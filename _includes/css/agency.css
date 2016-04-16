@@ -176,8 +176,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.color.primary }};
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #{{ site.color.primary-clear }};
 }
 
 .navbar-default .navbar-brand:hover,
@@ -282,6 +284,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
+    padding-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
@@ -290,7 +293,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
@@ -299,7 +302,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 180px;
         padding-bottom: 200px;
     }
 
@@ -313,7 +316,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
@@ -349,6 +352,16 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+.service-subheading {
+  margin: 30px 0 15px 0;
+  text-transform: none;
+}
+
+ul.service-features {
+  padding-top: 25px;
+  text-align: left;
 }
 
 #portfolio .portfolio-item {
