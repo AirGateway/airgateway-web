@@ -4,61 +4,28 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">AirGateway is the faster entry-door to the NDC age in the air travel distribution</h3>
+                    <h3 class="section-subheading text-muted">We facilitate landing in the NDC age for the air travel distribution</h3>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
+                {% for service in site.services %}
+                  <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-connectdevelop fa-stack-1x fa-inverse"></i>
+                        <i class="fa {{ service.icon }} fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">NDC Gateway</h4>
-                    <p>Our NDC Gateway enables any OTA, TMC or Fare Consolidator to adopt the NDC standard seamless, faster, and more efficiently.</p>
+                    <h4 class="service-heading">{{ service.name }}</h4>
+                    <p>{{ service.desc }}</p>
                     <div class="text-muted">
                       <ul class="service-features">
-                        <li>NDC-compliant real-time aggregation</li>
-                        <li>Anonymous/Personalised Shopping</li>
-                        <li>NDC implementations isolation (SOAP, REST)</li>
-                        <li>Authentication methods isolation</li>
-                        <li>Airlines-across normalization (Ancilliaries)</li>
+                        {% for feature in service.features %}
+                        {{% feature %}}
+                          <li>{{ feature }}</li>
+                        {% endfor %}
                       </ul>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">NDC Analytics</h4>
-                    <p>Our NDC Analytics suite provides a better view and understanding on your NDC Channel. It's flexible and customizable to track any data on your NDC channel.</p>
-                    <div class="text-muted">
-                      <ul class="service-features">
-                        <li>NDC-focused analytics</li>
-                        <li>Technical and Business relevant KPIs</li>
-                        <li>Customisable KPI's</li>
-                        <li>Customisable Display of information</li>
-                        <li>History statistics</li>
-                      </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-video-camera fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">NDC Monitor</h4>
-                    <p>A service monitoring 24/7 your NDC channel watching performance and raising alerts when KPI's go out of range.</p>
-                    <div class="text-muted">
-                      <ul class="service-features">
-                        <li>NDC-focused alerts</li>
-                        <li>Technical and Business relevant alerts</li>
-                        <li>Customisable alerts</li>
-                        <li>Multidevice status panel</li>
-                        <li>API for 3rd party systems integration</li>
-                      </ul>
-                    </div>
-                </div>
+                  </div>
+                {% endfor %}
             </div>
         </div>
     </section>
