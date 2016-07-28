@@ -19,9 +19,6 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   list-style: none;
 }
 
-p.post-entry {
-}
-
 #blog-footer.container {
   margin-top: 50px;
 }
@@ -36,6 +33,10 @@ div.entry {
 
 div.entry p {
   font-size: 1.2em !important;
+}
+
+div.entry p.centered {
+  text-align: center;
 }
 
 div.comments-block {
