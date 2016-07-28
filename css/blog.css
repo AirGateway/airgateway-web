@@ -15,11 +15,11 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
 }
 
 #blog-index ul.posts li {
+  margin-top: 50px;
   list-style: none;
 }
 
 p.post-entry {
-  /*font-size: 1.2em !important;*/
 }
 
 #blog-footer.container {
@@ -30,9 +30,14 @@ h1.blog-title {
   color: #D60004 !important;
 }
 
-section.entry {
+div.entry {
+  margin-top: 20px;
 }
 
-section.entry p {
+div.entry p {
   font-size: 1.2em !important;
+}
+
+div.comments-block {
+  margin-top: 40px;
 }

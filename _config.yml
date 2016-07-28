@@ -5,9 +5,8 @@ company: AirGateway GmbH
 email: contact@airgateway.net
 url: http://airgateway.net
 description: "Enabling the NDC age for the air travel industry. We are basing our services on enabling the IATA's NDC (New Distribution Capability) standard for air-travel related companies."
-
-# Tracking Services
-google_analytics: "UA-77281199-1"
+footer: AirGateway GmbH.
+blog-title: AirGtwy Blog
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -19,8 +18,15 @@ color:
   main-text: '#000'
   links: '#D60004'
 
-# Footer settings
-footer: AirGateway GmbH. i.G.
+# Tracking Services
+google_analytics: "UA-77281199-1"
+
+# Build settings
+excerpt_separator: <!--more-->
+markdown: kramdown
+permalink: /blog/:categories/:title
+
+### Contents ###
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -30,11 +36,6 @@ social:
     url: https://github.com/AirGateway
   - title: angellist
     url: https://angel.co/airgateway
-
-
-# Build settings
-markdown: kramdown
-permalink: pretty
 
 # Services
 services:
@@ -80,25 +81,13 @@ updates:
   #   text: AERTiCKET will be integrating with us to be our first NDC Gateway consumer.
 
 
-# Team names, titles and social links
-# people:
-# - name: Kay Garland
-#   pic: 1
-#   position: Lead Designer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: stack-overflow
-#       url: #
-
 #
 # # Postal address (add as many lines as necessary)
 # address:
 #   - line: 3481 Melrose Place
 #   - line: Beverly Hills, CA 90210
 #
-# # Build settings
+
+# Build settings
 # markdown: kramdown
 # permalink: pretty
