@@ -24,7 +24,7 @@ google_analytics: "UA-77281199-1"
 # Build settings
 excerpt_separator: <!--more-->
 markdown: kramdown
-permalink: /blog/:categories/:title
+permalink: /blog/:categories/:title.html
 
 ### Contents ###
 
