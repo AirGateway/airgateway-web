@@ -1,0 +1,38 @@
+/* Added by Jorge Díaz for minimal blog layout */
+
+p.post-entry {
+  font-size: 1.2em;
+}
+
+h1.site-title {
+  font-size: 4em;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+  color: #fff !important;
+  background-color: #D60004;
+  text-decoration: none;
+}
+
+#blog-index ul.posts li {
+  list-style: none;
+}
+
+p.post-entry {
+  /*font-size: 1.2em !important;*/
+}
+
+#blog-footer.container {
+  margin-top: 50px;
+}
+
+h1.blog-title {
+  color: #D60004 !important;
+}
+
+section.entry {
+}
+
+section.entry p {
+  font-size: 1.2em !important;
+}
