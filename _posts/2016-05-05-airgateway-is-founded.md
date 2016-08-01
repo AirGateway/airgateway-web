@@ -3,6 +3,7 @@ title: AirGateway is founded
 date: 2016-05-05
 post-date: May 2016
 author: Admin
+published: true
 img: the-plane-take-off-lights.jpg
 category: Company
 layout: post
