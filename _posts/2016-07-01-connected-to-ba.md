@@ -1,14 +1,17 @@
 ---
 title: Connected to BA
-subtitle: Connected to BA
-layout: post
-date: 2016-07-01
-post-date: Jul 2016
-published: false
+date: 2016-06-20
+post-date: Jun 2016
 author: Admin
-img: roundicons.png
+published: true
 category: Airlines
-entry: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.<!--more-->NA
+layout: post
+entry: We are glad to announce our first NDC provider enabled in our aggregation gateway, British Airways, level 3 NDC certified by IATA.
 ---
-Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-PATATAS! ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+{:refdef: class="centered"}
+![Take out](/img/airlines/ba_425.jpg)
+{: refdef}
+
+---
+
+We are glad to announce our first NDC provider enabled in our NDC Gateway. **British Airways**, which recently has been level 3 NDC certified by IATA, is already accessible through our NDC aggregation technology.
