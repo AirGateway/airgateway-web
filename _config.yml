@@ -75,10 +75,12 @@ updates:
     date: June 2016
     heading: Connected to BA
     text: We glad to announce we have already enabled British Airways's NDC service (level 3 certification).
-  # - icon: handshake.jpg
-  #   date: June 2016
-  #   heading: AERTiCKET joins us
-  #   text: AERTiCKET will be integrating with us to be our first NDC Gateway consumer.
+    link: /blog/airlines/connected-to-ba.html
+  - icon: handshake.jpg
+    date: August 2016
+    heading: AERTiCKET to use our NDC Gateway Aggregation
+    text: AERTiCKET, the biggest air-travel retailer in Germany, will be integrating with our NDC Gateway.
+    link: /blog/agreements/aerticket-to-use-our-ndc-gateway-aggregation.html
 
 
 #
