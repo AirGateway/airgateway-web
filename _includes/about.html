@@ -23,6 +23,11 @@
                                 <div class="timeline-body">
                                     <p class="text-muted">{{ update.text }}</p>
                                 </div>
+                                {% if update.link %}
+                                <div class="timeline-footer">
+                                    <p class="text-primary"><a href="{{ update.link }}">Read more</a></p>
+                                </div>
+                                {% endif %}
                             </div>
                           </li>
                         {% endfor %}
