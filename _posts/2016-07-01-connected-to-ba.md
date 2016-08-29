@@ -9,7 +9,7 @@ layout: post
 entry: We are glad to announce our first NDC provider enabled in our aggregation gateway, British Airways, level 3 NDC certified by IATA.
 ---
 {:refdef: class="centered"}
-![Take out](/img/airlines/ba_425.jpg)
+![Take out](/img/posts/ba_425.jpg)
 {: refdef}
 
 ---
