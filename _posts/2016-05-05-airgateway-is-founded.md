@@ -10,8 +10,8 @@ layout: post
 entry: AirGateway has been legally established today with the main goal of bringing a new way to access to the Air-travel distribution industry, leaving behind the old-fashioned and at many levels inefficient GDS aggregation model.
 ---
 {:refdef: class="centered"}
-![Take out](/img/posts/the-plane-take-off-lights.jpg)
-{: refdef}
+![Take out](/img/posts/the-plane-take-off-lights.jpg){:class="img-responsive"}
+{:refdef}
 
 ---
 

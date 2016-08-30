@@ -10,8 +10,8 @@ layout: post
 entry: AERTiCKET, the biggest air travel retailer in Germany, will be integrating with our NDC Gateway service.
 ---
 {:refdef: class="centered"}
-![Take out](/img/posts/aerticket-banner.png)
-{: refdef}
+![Take out](/img/posts/aerticket-banner.png){:class="img-responsive"}
+{:refdef}
 
 ---
 
