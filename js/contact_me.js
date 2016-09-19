@@ -1,11 +1,20 @@
 $(function() {
 
+    <!-- Google Analytics event tracker -->
+    ga('send', 'event', {
+     eventCategory: 'contactForm',
+     eventAction: 'submit',
+     eventLabel: 'Email: + ' + $("input#email").val(),
+     transport: 'beacon'
+    });
+
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
+          alert("Submit!");
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
@@ -17,6 +26,8 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+
+            // Send POST
             $.ajax({
                 url: "././mail/contact_me.php",
                 type: "POST",
