@@ -1,22 +1,23 @@
 $(function() {
 
     $("input,textarea").jqBootstrapValidation({
-
-        <!-- Google Analytics event tracker -->
-        ga('send', 'event', {
-         eventCategory: 'contactForm',
-         eventAction: 'submit',
-         eventLabel: 'Email:' + $("input#email").val(),
-         transport: 'beacon'
-        });
-        <!-- Google Analytics event tracker -->
-
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
+
+            // Google Analytics event tracker
+            eventLabel = 'email: ' + $("input#email").val();
+            ga('send', 'event', {
+             eventCategory: 'contactForm',
+             eventAction: 'submit',
+             eventLabel: eventLabel,
+             transport: 'beacon'
+            });
+            // Google Analytics event tracker
+
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
