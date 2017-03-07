@@ -1,6 +1,6 @@
 # Site settings
 title: AirGateway # - Disrupting the air travel distribution
-head-title: AirGateway - Enabling the NDC age for the air travel distribution industry
+head-title: AirGateway - Enabling the NDC age for the air-travel distribution industry
 company: AirGateway GmbH
 email: contact@airgateway.net
 url: http://airgateway.net
@@ -40,7 +40,7 @@ social:
 # Services
 services:
   - name: NDC Gateway
-    desc: Our NDC Gateway enables any OTA, TMC or Fare Consolidator to adopt the NDC standard seamless, faster, and more efficiently.
+    desc: Our NDC Gateway aggregator enables OTAs, TMCs or Fare Consolidators to adopt the NDC standard seamless, faster, at a lower costs.
     icon: fa-connectdevelop
     features:
       - NDC-compliant real-time aggregation
@@ -81,6 +81,11 @@ updates:
     heading: AERTiCKET to use our NDC Gateway Aggregation
     text: AERTiCKET, the biggest air-travel retailer in Germany, will be integrating with our NDC Gateway.
     link: /blog/agreements/aerticket-to-use-our-ndc-gateway-aggregation.html
+  - icon: conference.jpg
+    date: January 2017
+    heading: AirGateway selected to exhibit in the Travel Technology Europe Launchpad
+    text: We have been selected as launchpad exhibitors in the most popular event in Europe introducing disrupting technologies for the travel industry.
+    link: /blog/events/airgateway-selected-to-exhibit-in-the-travel-technology-europe-launchpad.html
 
 
 #
