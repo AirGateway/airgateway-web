@@ -58,15 +58,15 @@ services:
     features:
       - NDC-focused analytics
       - Technical and Business relevant KPIs
-      - Customisable KPI's
-      - Customisable display and dashboards
+      - Customizable KPI's
+      - Customizable display and dashboards
   - name: NDC Monitor
     desc: A service to monitor 24/7 your NDC channel observing performance and raising alerts when indicators go out of range.
     icon: fa-video-camera
     features:
       - NDC-focused indicators
       - Technical and Business relevant indicators
-      - Customisable indicators and ranges
+      - Customizable indicators and ranges
       - API for 3rd party systems integration
 
 # Airlines
