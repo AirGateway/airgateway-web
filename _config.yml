@@ -69,6 +69,29 @@ services:
       - Customisable indicators and ranges
       - API for 3rd party systems integration
 
+# Airlines
+airlines:
+  - label: BA
+    name: British Airways
+    date: 01-Sep-2016
+  - label: AA
+    name: American Airlines
+    date: 20-Sep-2016
+  - label: S7
+    name: Siberian Airlines
+    date: 20-Nov-2016
+  - label: EK
+    name: Emirates
+    date: 01-Feb-2017
+  - label: IB
+    name: Iberia Líneas Aéreas de España
+    date: 01-Mar-2017
+  - label: WS
+    name: WestJet Airlines
+    date: 15-Mar-2017
+
+
+
 # About
 updates:
   - icon: AirGatewayLogo.png
