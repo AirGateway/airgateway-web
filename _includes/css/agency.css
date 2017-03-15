@@ -854,6 +854,7 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+
 ::-moz-selection {
     text-shadow: none;
     background: #{{ site.color.primary }};
@@ -874,4 +875,18 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+
+
+/*  Added for AirGateway  */
+
+div.airline-logo {
+  height: 150px;
+}
+
+div.airline-logo span.logo-aligned {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }

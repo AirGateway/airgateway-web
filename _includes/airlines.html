@@ -1,0 +1,21 @@
+<!-- Airlines Section -->
+<section id="airlines">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Airlines</h2>
+                <h3 class="section-subheading text-muted">Airlines we are partnering with</h3>
+            </div>
+        </div>
+        <div class="row text-center">
+            {% for airline in site.airlines %}
+              <div class="col-md-4 airline-logo">
+                <span class="logo-aligned"></span>
+                  <img src="img/airlines/{{ airline.label }}.png" alt="{{ airline.name }}" title="{{ airline.name }}"/>
+                  <span class="logo-aligned"></span>
+              </div>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+</section>
