@@ -1,0 +1,34 @@
+---
+title: AirGateway and SITA to partner building NDC products for the airline distribution industry
+date: 2017-03-31
+post-date: Mar 2017
+author: Admin
+published: true
+img: AirGateway-SITA-logos.png
+category: Agreements
+layout: post
+entry: We are really glad to announce our partnership with SITA, one of the most relevant IT companies in the airline industry.
+---
+{:refdef: class="centered"}
+![Take out](/img/posts/AirGateway-SITA-logos.png){:class="img-responsive"}
+{:refdef}
+
+---
+
+We are pleased to announce our recently inked agreement with [SITA](https://www.sita.aero/) to
+collaborate in the creation of a set of NDC-related products for the airline
+industry.
+
+These products will help airlines distribute, manage, and analyze their NDC APIs more efficiently via technology that supports a wide range of NDC use cases.
+
+We will disclose further details regarding this initiative shortly.
+
+In the meantime, please feel free to contact us for more information. 
+
+**AirGateway**
+
+Jorge Díaz ([jd@airgateway.net](mailto:jd@airgateway.net))
+
+**SITA**
+
+Pierre Guiol ([pierre.guiol@sita.aero](mailto:pierre.guiol@sita.aero))
