@@ -10,7 +10,7 @@ layout: post
 entry: We are happy to disclose the results of the first stress tests made on our NDC aggregation platform with very satisfactory conclusions for our technical scalability expectations.
 ---
 {:refdef: class="centered"}
-![Take out](/img/posts/BlazeMeter_AG_AirShopping_LHR-DME.png){:class="img-responsive"}
+![BlazeMeter stress test report](/img/posts/BlazeMeter_AG_AirShopping_LHR-DME.png){:class="img-responsive"}
 {:refdef}
 
 ---

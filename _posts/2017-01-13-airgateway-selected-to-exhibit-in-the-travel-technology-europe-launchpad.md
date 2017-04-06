@@ -10,7 +10,7 @@ layout: post
 entry: We have been selected as launchpad exhibitors in the most popular event in Europe introducing disrupting technologies for the travel industry.
 ---
 {:refdef: class="centered"}
-![Take out](/img/posts/tte-2017-logo.png){:class="img-responsive"}
+![TTE 2017 in London](/img/posts/tte-2017-logo.png){:class="img-responsive"}
 {:refdef}
 
 ---
