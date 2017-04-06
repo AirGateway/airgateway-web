@@ -42,3 +42,8 @@ div.entry p.centered {
 div.comments-block {
   margin-top: 40px;
 }
+/* Just applies on /blog */
+
+table thead th {
+  padding: 0 20px;
+}
