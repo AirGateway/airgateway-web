@@ -1,11 +1,11 @@
 _site
 
-# OSX
-# =========================
+# Trash
 
 .DS_Store
 .AppleDouble
 .LSOverride
+.sass-cache
 
 # Icon must ends with two \r.
 Icon
@@ -18,4 +18,17 @@ Icon
 
 # Jekyll
 _glynn.yml
+
+# RVM
+.ruby-gemset
+.ruby-version
+
+# Ignore local Gemset
+Gemfile.lock
+
+# Ignore bundler config
+.bundle
+
+# Ignore local Gemset
+/.gem
 
