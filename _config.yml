@@ -26,9 +26,13 @@ excerpt_separator: <!--more-->
 markdown: kramdown
 permalink: /blog/:categories/:title.html
 
+# SASS
+sass:
+  style: compressed
+
 # Plugins
 
-gems: [jekyll-admin]
+#gems: [jekyll-admin]
 
 ### Contents ###
 
