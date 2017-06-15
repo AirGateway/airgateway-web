@@ -1,0 +1,28 @@
+.site-footer{
+  padding: 45px 0;
+  color: #FFF;
+  background-color: $gray-darker;
+  a{
+    color: #FFF;
+  }
+  ul{
+    margin-bottom: 20px;
+  }
+  &__quicklinks{
+    a{
+      text-decoration: none;
+      border-bottom: 1px solid #FFF;
+    }
+  }
+  @media #{$desktop-up}{
+    ul{
+      margin-bottom: 0;
+    }
+    &__social{
+      text-align: center;
+    }
+    &__quicklinks{
+      text-align: right;
+    }
+  }
+}

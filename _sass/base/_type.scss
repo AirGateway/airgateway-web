@@ -1,3 +1,27 @@
-body{
-  border: 10px solid #F00;
+.text-huge { font-size: $font-size-huge - $huge-font-reduction-xs; }
+h1, .h1    { font-size: $font-size-h1   - $h1-font-reduction-xs; }
+h2, .h2    { font-size: $font-size-h2   - $h2-font-reduction-xs; }
+h3, .h3    { font-size: $font-size-h3   - $h3-font-reduction-xs; }
+h4, .h4    { font-size: $font-size-h4   - $h4-font-reduction-xs; }
+h5, .h5    { font-size: $font-size-h5   - $h5-font-reduction-xs; }
+h6, .h6    { font-size: $font-size-h6   - $h6-font-reduction-xs; }
+
+@media #{$mobile-up} {
+  .text-huge { font-size: $font-size-huge - $huge-font-reduction-sm; }
+  h1, .h1    { font-size: $font-size-h1   - $h1-font-reduction-sm; }
+  h2, .h2    { font-size: $font-size-h2   - $h2-font-reduction-sm; }
+  h3, .h3    { font-size: $font-size-h3   - $h3-font-reduction-sm; }
+  h4, .h4    { font-size: $font-size-h4   - $h4-font-reduction-sm; }
+  h5, .h5    { font-size: $font-size-h5   - $h5-font-reduction-sm; }
+  h6, .h6    { font-size: $font-size-h6   - $h6-font-reduction-sm; }
+}
+
+@media #{$tablet-up} {
+  .text-huge { font-size: $font-size-huge; }
+  h1, .h1    { font-size: $font-size-h1; }
+  h2, .h2    { font-size: $font-size-h2; }
+  h3, .h3    { font-size: $font-size-h3; }
+  h4, .h4    { font-size: $font-size-h4; }
+  h5, .h5    { font-size: $font-size-h5; }
+  h6, .h6    { font-size: $font-size-h6; }
 }
