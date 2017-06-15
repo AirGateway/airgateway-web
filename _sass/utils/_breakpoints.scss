@@ -1,0 +1,13 @@
+$mini:            'only screen and (max-width: ' + ($screen-xs-min - 1) + ')'; // (max-width: 479px )
+$mobile:          'only screen and (min-width: ' + $screen-xs-min + ') and (max-width: ' + $screen-xs-max + ')'; // (min-width: 480px ) and (max-width: 767px )
+$mobile-up:       'only screen and (min-width: ' + $screen-xs-min + ')'; // (min-width: 480px )
+$tablet-down:     'only screen and (max-width: ' + $screen-xs-max + ')'; // (max-width: 767px )
+$tablet:          'only screen and (min-width: ' + $screen-sm-min + ') and (max-width: ' + $screen-sm-max + ')'; // (min-width: 768px ) and (max-width: 991px )
+$tablet-up:       'only screen and (min-width: ' + $screen-sm-min + ')'; // (min-width: 768px )
+$desktop-down:    'only screen and (max-width: ' + $screen-sm-max  + ')'; // (max-width: 991px )
+$desktop:         'only screen and (min-width: ' + $screen-md-min + ') and (max-width: ' + $screen-md-max + ')'; // (min-width: 992px ) and (max-width: 1199px )
+$desktop-up:      'only screen and (min-width: ' + $screen-md-min + ')'; // (min-width: 992px )
+$desktop-lg-down: 'only screen and (max-width: ' + $screen-md-max + ')'; // (max-width: 1200px )
+$desktop-lg:      'only screen and (min-width: ' + $screen-lg-min + ')'; // (min-width: 1200px )
+
+$mini-portrait:   'only screen and (max-width: ' + ($screen-xs-min - 1) + ') and (orientation: portrait)';  // (max-width: 479px and portrait )

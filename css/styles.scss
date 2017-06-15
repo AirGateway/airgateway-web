@@ -3,6 +3,19 @@
 # only Main files contain this front matter, not partials.
 ---
 
+// VARIABLES
+// ----------------------------
+@import  'variables';
+
+// UTILS
+// ----------------------------
+@import  'utils/mixins';
+@import  'utils/breakpoints';
+
+
+// BOOTSTRAP
+// ----------------------------
+
 // Core variables and mixins
 @import 'bootstrap/variables';
 @import 'bootstrap/mixins';
@@ -54,5 +67,18 @@
 @import 'bootstrap/utilities';
 @import 'bootstrap/responsive-utilities';
 
-@import 'type';
-@import 'blog';
+
+// BASE
+// ----------------------------
+@import 'base/fonts';
+@import 'base/type';
+@import 'base/scaffolding';
+
+
+// COMPONENTS
+// ----------------------------
+//@import 'components/type';
+
+// SECTIONS
+// ----------------------------
+@import 'sections/blog';

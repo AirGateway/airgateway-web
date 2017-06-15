@@ -32,7 +32,8 @@ sass:
 
 # Plugins
 
-#gems: [jekyll-admin]
+#gems:
+#- jekyll-admin
 
 ### Contents ###
 

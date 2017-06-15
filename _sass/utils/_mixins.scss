@@ -1,0 +1,168 @@
+// Typography
+@mixin font-face ($family, $file-base, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $family;
+    src: url('/fonts/' + $file-base + '.woff2'),
+         url('/fonts/' + $file-base + '.woff');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+//@mixin font-face-base64 ($family, $file-base, $weight: normal, $style: normal) {
+//  @font-face {
+//    font-family: $family;
+//    src: inline-font-files($file-base + '.otf.woff');
+//    font-weight: $weight;
+//    font-style: $style;
+//  }
+//}
+
+
+// Styling these together breaks some
+// browsers so we'll use a content block
+@mixin text-selection{
+  ::selection{
+    @content;
+  }
+  ::-moz-selection{
+    @content;
+  }
+}
+
+
+// Nicer text rendering in webkit and gecko
+// @see http://www.aestheticallyloyal.com/public/optimize-legibility/
+// @see http://files.christophzillgens.com/webkit-font-smoothing.html
+@mixin improve-text-rendering{
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+// Prevent text from wrapping onto multiple lines, and truncate with an ellipsis.
+//
+// 1. max-width: Ensure that the node has a maximum width after which truncation can occur.
+// 2. word-wrap: Fix for IE 8/9 if `word-wrap: break-word` is in effect on ancestor nodes.
+@mixin truncate-text{
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+
+// There are times when a really long string of text can overflow the container of a layout.
+@mixin dont-break-out{
+  /* These are technically the same, but use both */
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   -ms-word-break: break-all;
+   /* This is the dangerous one in WebKit, as it breaks things wherever */
+   word-break: break-all;
+   /* Instead use this non-standard one: */
+   word-break: break-word;
+   hyphens: auto;
+}
+
+
+// Ellipsis in block
+@mixin ellipsis($height, $lines){
+ display: block;
+ display: -webkit-box;
+ -webkit-box-orient: vertical;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ height: $height; // font-size * line-height * lines to show - http://codepen.io/martinwolf/pen/qlFdp
+ -webkit-line-clamp: $lines; // lines to show
+}
+/**
+* Use
+* &__brand{
+*  @include ellipsis(18px, 1);
+* }
+*/
+
+
+// Initial Value: manual
+// Values: none, manual, auto
+@mixin hyphenate($value:auto){
+  @include prefix(hyphens, $value);
+}
+
+
+// Justify text and automatically hyphenates
+// which should be done when justifying text
+@mixin justify{
+  @include hyphenate;
+  text-align: justify;
+}
+
+
+// Aspect ratio
+@mixin aspect-ratio($w, $h) {
+  $ratio: ($h / $w);
+  &:before {
+    content: '';
+    display: block;
+    padding-top: (100% * $ratio);
+  }
+  > * {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+  }
+}
+
+
+// Block buttons
+@mixin btn-block() {
+  display: block;
+  width: 100%;
+}
+
+
+// Buttons domestika variant
+@mixin button-variant-domestika($color, $background, $border, $color-inverse, $background-inverse, $border-inverse) {
+ @include button-variant($color, $background, $border);
+ &.btn-inverse{
+   @include button-variant($color-inverse, $background-inverse, $border-inverse);
+   &:hover,
+   &:focus{
+     color: #FFF;
+     background-color: $color-inverse;
+     border-color: $color-inverse;
+   }
+ }
+}
+
+
+// Positioning Mixin
+@mixin position($position, $args) {
+  @each $o in top right bottom left {
+    $i: index($args, $o);
+
+    @if $i and $i + 1 <= length($args) and type-of(nth($args, $i + 1)) == number  {
+      #{$o}: nth($args, $i + 1);
+    }
+  }
+
+  position: $position;
+}
+@mixin absolute($args) {
+  @include position(absolute, $args);
+}
+@mixin fixed($args) {
+  @include position(fixed, $args);
+}
+@mixin relative($args) {
+  @include position(relative, $args);
+}
+/**
+* Use
+* &__brand{
+*  @include absolute(top 0 left 1em);
+* }
+*/
