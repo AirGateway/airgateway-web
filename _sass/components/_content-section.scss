@@ -1,0 +1,18 @@
+.content-section{
+  padding: 80px 0;
+  hgroup{
+    margin-bottom: 50px;
+    text-align: center;
+    h2, h3{
+      margin: 0;
+    }
+    h2{
+      margin-bottom: 25px;
+    }
+    h3{
+      font-weight: 400;
+      line-height: $line-height-base;
+      color: $gray;
+    }
+  }
+}

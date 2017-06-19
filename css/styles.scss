@@ -78,8 +78,13 @@
 // COMPONENTS
 // ----------------------------
 //@import 'components/type';
+@import 'components/alerts';
+@import 'components/buttons';
+@import 'components/content-section';
+@import 'components/forms';
 
 // SECTIONS
 // ----------------------------
 @import 'sections/blog';
+@import 'sections/contact';
 @import 'sections/footer';

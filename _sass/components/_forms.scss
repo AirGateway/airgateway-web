@@ -1,0 +1,25 @@
+.input-lg{
+  font-size: $font-size-base;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.form-group{
+  margin-bottom: 30px;
+}
+
+.form-control{
+  @include box-shadow(none);
+  &:focus{
+    border-color: $gray-darker;
+    @include box-shadow(none);
+    @include placeholder(transparent);
+  }
+}
+
+textarea{
+  &.input-lg{
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}
