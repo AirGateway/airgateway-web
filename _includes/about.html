@@ -1,59 +1,41 @@
-<!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Our Story</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        {% for update in site.updates %}
-                          <li class="{% cycle 'timeline', 'timeline-inverted' %}">
-                            <div class="timeline-image">
-                              <img class="img-circle img-responsive" src="img/about/{{ update.icon }}" alt="{{ update.icon }}">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>{{ update.date }}</h4>
-                                    <h4 class="subheading">{{ update.heading }}</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">{{ update.text }}</p>
-                                </div>
-                                {% if update.link %}
-                                <div class="timeline-footer">
-                                    <p class="text-primary"><a href="{{ update.link }}">Read more</a></p>
-                                </div>
-                                {% endif %}
-                            </div>
-                          </li>
-                        {% endfor %}
-                        <!-- <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/handshake.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>May 2016</h4>
-                                    <h4 class="subheading">AERtICKET commercial agreement</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">We have signed a colaboration agreement with AERtICKET AG. to facilitate them to connect to NDC-enabled airlines through our NDC Gateway.</p>
-                                </div>
-                            </div>
-                        </li> -->
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+<section id="about" class="content-section">
+
+  <div class="container">
+
+    <hgroup>
+      <h2>About</h2>
+      <h3>Our Story</h3>
+    </hgroup>
+
+    <ul class="timeline">
+      {% for update in site.updates %}
+      <li class="{% cycle 'timeline', 'timeline-inverted' %}">
+        <div class="timeline-image">
+          <img class="img-circle img-responsive" src="img/about/{{ update.icon }}" alt="{{ update.icon }}">
         </div>
-    </section>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>{{ update.date }}</h4>
+            <h4 class="subheading">{{ update.heading }}</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">{{ update.text }}</p>
+          </div>
+          {% if update.link %}
+          <div class="timeline-footer">
+            <p class="text-primary"><a href="{{ update.link }}">Read more</a></p>
+          </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <h4>Be Part Of Our Story!</h4>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+
+</section>

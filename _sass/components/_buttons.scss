@@ -1,7 +1,9 @@
 .btn{
-  &-xl{
-    padding: 13px 25px;
-    font-size: $font-size-xlarge;
+  &-lg{
+    padding: 16px 25px;
     border-radius: $border-radius-large;
+  }
+  .btn-toolbar &{
+    float: none;
   }
 }

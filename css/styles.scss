@@ -77,7 +77,6 @@
 
 // COMPONENTS
 // ----------------------------
-//@import 'components/type';
 @import 'components/alerts';
 @import 'components/buttons';
 @import 'components/content-section';
@@ -85,6 +84,8 @@
 
 // SECTIONS
 // ----------------------------
+@import 'sections/about';
 @import 'sections/blog';
 @import 'sections/contact';
 @import 'sections/footer';
+@import 'sections/services';
