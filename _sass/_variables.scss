@@ -23,7 +23,8 @@ $content-padding-sm: 50px;
 //## Gray and brand colors for use across Bootstrap.
 
 $gray-base:              #000 !default;
-$gray-darker:            #25252F; // USED
+$gray-darkest:           #1F1F27 !default; // USED
+$gray-darker:            #25252F !default; // USED
 $gray-dark:              #434350 !default; // USED
 $gray:                   #82828C !default; // USED
 $gray-light:             #B4B5BE !default; // USED
@@ -524,9 +525,9 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 //
 //##
 
-$jumbotron-padding:              30px !default;
+$jumbotron-padding:              0 !default;
 $jumbotron-color:                inherit !default;
-$jumbotron-bg:                   $gray-lighter !default;
+$jumbotron-bg:                   $gray-darkest !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;

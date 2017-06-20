@@ -1,0 +1,50 @@
+.jumbotron{
+  position: relative;
+  color: #FFF;
+  background-position: 50% 50%;
+  border-right: none;
+  background-size: cover;
+  .container{
+    display: table;
+  }
+  h1{
+    @extend .text-huge;
+    font-weight: 100;
+    line-height: 1.33;
+  }
+  &__plane{
+    @include absolute(bottom 20px left 50%);
+    @include size(48px, 48px);
+    transform: translateX(-50%);
+    color: #FFF;
+    background-color: $brand-primary;
+    border-radius: 50%;
+  }
+  &--home{
+    background-image: url('/img/jumbotron-home-bg.jpg');
+    h1{
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  @media #{$mini} {
+    .container{
+      min-height: 100vh;
+    }
+  }
+  @media #{$mobile} {
+    .container{
+      min-height: 50vh;
+    }
+  }
+  @media #{$tablet} {
+    .container{
+      min-height: 400px;
+    }
+  }
+  @media #{$desktop-up} {
+    .container{
+      min-height: 600px;
+    }
+  }
+}

@@ -15,7 +15,7 @@
         <li class="col-sm-4 services-list__item">
           <i class="fa {{ service.icon }}"></i>
           <h4 class="services-list__heading">{{ service.name }}</h4>
-          <p class="services-list__description">{{ service.desc }}</p>
+          <p class="services-list__description" data-match-height="services-list-description">{{ service.desc }}</p>
           <ul class="services-list__features">
             {% for feature in service.features %}
             {{% feature %}}
