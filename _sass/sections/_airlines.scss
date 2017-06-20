@@ -1,0 +1,13 @@
+#airlines{
+  padding: 30px 0;
+  background-color: $blue-light;
+  img{
+    @extend .img-responsive;
+    opacity: 0.75;
+    @include transition(all 0.25s ease-out);
+    &:hover,
+    &:focus{
+      opacity: 1;
+    }
+  }
+}

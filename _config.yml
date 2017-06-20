@@ -46,8 +46,8 @@ social:
   - title: angellist
     url: https://angel.co/airgateway
 
-# Services
-services:
+# Products
+products:
   - name: NDC Gateway
     desc: Our NDC Gateway aggregator enables OTAs, TMCs or Fare Consolidators to adopt the NDC standard seamless, faster, at a lower costs.
     icon: fa-connectdevelop

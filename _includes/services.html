@@ -1,25 +1,23 @@
-<section id="services" class="content-section">
+<section id="products" class="content-section">
 
   <div class="container">
 
-    <h1>matchHeight</h1>
-
     <hgroup>
-      <h2>Services</h2>
-      <h3>With our services we want to facilitate the adoption of the NDC standard for the air travel distribution industry</h3>
+      <h2>Products</h2>
+      <h3>With our products we want to facilitate the adoption of the NDC standard for the air travel distribution industry</h3>
     </hgroup>
 
     <div class="row">
-      <ul class="services-list">
-        {% for service in site.services %}
-        <li class="col-sm-4 services-list__item">
+      <ul class="products-list">
+        {% for service in site.products %}
+        <li class="col-sm-4 products-list__item">
           <i class="fa {{ service.icon }}"></i>
-          <h4 class="services-list__heading">{{ service.name }}</h4>
-          <p class="services-list__description" data-match-height="services-list-description">{{ service.desc }}</p>
-          <ul class="services-list__features">
+          <h4 class="products-list__heading">{{ service.name }}</h4>
+          <p class="products-list__description" data-match-height="products-list-description">{{ service.desc }}</p>
+          <ul class="products-list__features">
             {% for feature in service.features %}
             {{% feature %}}
-            <li class="services-list__features__item">{{ feature }}</li>
+            <li class="products-list__features__item">{{ feature }}</li>
             {% endfor %}
           </ul>
         </li>
