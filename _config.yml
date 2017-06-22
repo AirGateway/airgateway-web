@@ -50,7 +50,7 @@ social:
 products:
   - name: NDC Gateway
     desc: Our NDC Gateway aggregator enables OTAs, TMCs or Fare Consolidators to adopt the NDC standard seamless, faster, at a lower costs.
-    icon: fa-connectdevelop
+    icon: i-agw-airplane-o
     features:
       - NDC-compliant real-time aggregation
       - Anonymous/Personalised Shopping
@@ -59,7 +59,7 @@ products:
       - Ancilliaries Normalization between airlines
   - name: NDC Analytics
     desc: Our NDC Analytics suite provides a better view and understanding on your NDC Channel. It's flexible and customizable to track any data on your NDC channel.
-    icon: fa-bar-chart
+    icon: i-agw-graph-o
     features:
       - NDC-focused analytics
       - Technical and Business relevant KPIs
@@ -67,7 +67,7 @@ products:
       - Customizable display and dashboards
   - name: NDC Monitor
     desc: A service to monitor 24/7 your NDC channel observing performance and raising alerts when indicators go out of range.
-    icon: fa-video-camera
+    icon: i-agw-radar-o
     features:
       - NDC-focused indicators
       - Technical and Business relevant indicators

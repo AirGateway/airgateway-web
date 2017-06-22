@@ -9,13 +9,13 @@
 
     <div class="row">
       <ul class="products-list">
-        {% for service in site.products %}
+        {% for product in site.products %}
         <li class="col-sm-4 products-list__item">
-          <i class="fa {{ service.icon }}"></i>
-          <h4 class="products-list__heading">{{ service.name }}</h4>
-          <p class="products-list__description" data-match-height="products-list-description">{{ service.desc }}</p>
+          <i class="{{ product.icon }} products-list__icon"></i>
+          <h4 class="products-list__heading">{{ product.name }}</h4>
+          <p class="products-list__description" data-match-height="products-list-description">{{ product.desc }}</p>
           <ul class="products-list__features">
-            {% for feature in service.features %}
+            {% for feature in product.features %}
             {{% feature %}}
             <li class="products-list__features__item">{{ feature }}</li>
             {% endfor %}

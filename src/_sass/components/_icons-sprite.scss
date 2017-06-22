@@ -1,0 +1,26 @@
+[class^='i-sprite'] {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font: 0/0;
+  color: transparent;
+  background-image: inline-image('sprite.png');
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    background-image: inline-image('sprite@2x.png');
+    background-size: 350px 241px;
+  }
+}
+
+.i-sprite-iluzprofeno-logo-large {
+  background-position: 0px 0px;
+  width: 350px; height: 112px;
+}
+.i-sprite-iluzprofeno-logo-small {
+  background-position: 0px -182px;
+  width: 183px; height: 59px;
+}
+.i-sprite-iluzprofeno-logo {
+  background-position: 0px -112px;
+  width: 220px; height: 70px;
+}

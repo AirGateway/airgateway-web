@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'agw-icons';
+  src: url('../fonts/agw-icons.woff2') format('woff2'),
+       url('../fonts/agw-icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='i-agw']:before {
+  display: inline-block;
+  font-family: 'agw-icons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.i-agw-angle-double-left:before { content: '\EA01' }
+.i-agw-check:before { content: '\EA02' }
+.i-agw-close:before { content: '\EA03' }
+.i-agw-comment:before { content: '\EA04' }
+.i-agw-envelope:before { content: '\EA05' }
+.i-agw-facebook:before { content: '\EA06' }
+.i-agw-hand:before { content: '\EA07' }
+.i-agw-isotype-holaluz:before { content: '\EA08' }
+.i-agw-logo-holaluz:before { content: '\EA09' }
+.i-agw-phone:before { content: '\EA0A' }
+.i-agw-pill-o:before { content: '\EA0B' }
+.i-agw-pill:before { content: '\EA0C' }
+.i-agw-player:before { content: '\EA0D' }
+.i-agw-thumb-up:before { content: '\EA0E' }
+.i-agw-twitter:before { content: '\EA0F' }
+.i-agw-user:before { content: '\EA10' }
+.i-agw-youtube:before { content: '\EA11' }

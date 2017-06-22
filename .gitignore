@@ -32,3 +32,6 @@ Gemfile.lock
 # Ignore local Gemset
 /.gem
 
+# Ignore npm modules
+node_modules
+

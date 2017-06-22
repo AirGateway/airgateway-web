@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'agw-icons';
+  src: url('../fonts/agw-icons.woff2') format('woff2'),
+       url('../fonts/agw-icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='i-agw']:before {
+  display: inline-block;
+  font-family: 'agw-icons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.i-agw-airplane-o:before { content: '\EA01' }
+.i-agw-angellist:before { content: '\EA02' }
+.i-agw-github:before { content: '\EA03' }
+.i-agw-graph-o:before { content: '\EA04' }
+.i-agw-radar-o:before { content: '\EA05' }
+.i-agw-twitter:before { content: '\EA06' }

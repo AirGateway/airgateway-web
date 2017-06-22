@@ -11,8 +11,14 @@
 }
 
 .products-list{
+  margin-top: 50px;
   &__item{
     text-align: center;
+  }
+  &__icon{
+    font-size: 120px;
+    color: $brand-primary;
+    line-height: 1;
   }
   &__heading{
     @extend .h3;
