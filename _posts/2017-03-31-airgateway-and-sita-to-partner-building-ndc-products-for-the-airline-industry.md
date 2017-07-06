@@ -5,9 +5,10 @@ post-date: Mar 2017
 author: Admin
 published: true
 img: AirGateway-SITA-logos.png
+img_2x: AirGateway-SITA-logos@2x.png
 category: Agreements
 layout: post
-entry: We are really glad to announce our partnership with SITA, one of the most relevant IT companies in the airline industry.
+entry: We are really glad to announce our partnership with SITA, one of the most relevant IT companies in the airline industry
 ---
 {:refdef: class="centered"}
 ![Take out](/img/posts/AirGateway-SITA-logos.png){:class="img-responsive"}
@@ -23,7 +24,7 @@ These products will help airlines distribute, manage, and analyze their NDC APIs
 
 We will disclose further details regarding this initiative shortly.
 
-In the meantime, please feel free to contact us for more information. 
+In the meantime, please feel free to contact us for more information.
 
 **AirGateway**
 

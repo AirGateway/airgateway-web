@@ -1,49 +1,9 @@
-/* Added by Jorge Díaz for minimal blog layout */
-
-p.post-entry {
-  font-size: 1.2em;
-}
-
-h1.site-title {
-  font-size: 4em;
-}
-
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
-  color: #fff !important;
-  background-color: #D60004;
-  text-decoration: none;
-}
-
-#blog-index ul.posts li {
-  margin-top: 50px;
-  list-style: none;
-}
-
-#blog-footer.container {
-  margin-top: 50px;
-}
-
-h1.blog-title {
-  color: #D60004 !important;
-}
-
-div.entry {
-  margin-top: 20px;
-}
-
-div.entry p {
-  font-size: 1.2em !important;
-}
-
-div.entry p.centered {
-  text-align: center;
-}
-
-div.comments-block {
-  margin-top: 40px;
-}
-/* Just applies on /blog */
-
-table thead th {
-  padding: 0 20px;
+.posts-list{
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  &__cover{
+    @extend .img-responsive;
+    @extend .center-block;
+  }
 }

@@ -7,7 +7,7 @@ published: true
 img: the-plane-take-off-lights.jpg
 category: Events
 layout: post
-entry: We have been selected as launchpad exhibitors in the most popular event in Europe introducing disrupting technologies for the travel industry.
+entry: We have been selected as launchpad exhibitors in the most popular event in Europe introducing disrupting technologies for the travel industry
 ---
 {:refdef: class="centered"}
 ![TTE 2017 in London](/img/posts/tte-2017-logo.png){:class="img-responsive"}

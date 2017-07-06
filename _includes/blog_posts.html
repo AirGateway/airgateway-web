@@ -6,7 +6,7 @@
       <h2>Latest posts</h2>
     </hgroup>
 
-    <ul class="blog-posts-list">
+    <ul class="row posts-list">
       {% for post in site.posts limit:3 %}
         {% include blog_posts/item.html %}
       {% endfor %}
