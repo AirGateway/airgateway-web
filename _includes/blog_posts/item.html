@@ -1,0 +1,12 @@
+<li>
+  <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+  <p>
+    <span class="post-category"><strong>{{ post.category }}</strong></span> |
+    <span class="post-date"><strong>{{ post.date | date: "%b %-d, %Y" }}</strong></span> |
+    <span class="post-author"><strong>{{ post.author }}</strong></span>
+  </p>
+  <p class="post-entry entry">{{ post.entry }}</p>
+  <p>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">+ Read the post +</a>
+  </p>
+</li>

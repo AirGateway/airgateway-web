@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body id="page-top" class="index">
+  <body id="page-top">
 
     {% include header.html %}
     {% include jumbotron.html %}
@@ -13,9 +13,6 @@
     {% include blog_posts.html %}
     {% include contact.html %}
     {% include footer.html %}
-    {% include js.html %}
-    {% include trackers.html %}
-
 
     <!-- Large modal -->
     <div id="modal-body" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
@@ -25,6 +22,9 @@
         </div>
       </div>
     </div>
+
+    {% include js.html %}
+    {% include trackers.html %}
 
   </body>
 </html>

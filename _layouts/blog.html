@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  {% include js.html %}
-  <body id="page-top" class="index">
 
-    {% include blog_header.html %}
-      {{ content }}
-    {% include blog_footer.html %}
+  {% include head.html %}
+
+  <body id="page-top">
+
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
 
     <!-- Large modal -->
     <div id="modal-body" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
@@ -17,7 +18,8 @@
       </div>
     </div>
 
-  {% include trackers.html %}
+    {% include js.html %}
+    {% include trackers.html %}
 
   </body>
 </html>
