@@ -5,6 +5,7 @@ post-date: Jan 2017
 author: Admin
 published: true
 img: the-plane-take-off-lights.jpg
+img_2x: the-plane-take-off-lights@2x.jpg
 category: Events
 layout: post
 entry: We have been selected as launchpad exhibitors in the most popular event in Europe introducing disrupting technologies for the travel industry

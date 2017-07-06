@@ -5,6 +5,7 @@ post-date: Oct 2016
 author: Admin
 published: true
 img: the-plane-take-off-lights.jpg
+img_2x: the-plane-take-off-lights@2x.jpg
 category: Technology
 layout: post
 entry: We are happy to disclose the results of the first stress tests made on our NDC aggregation platform with very satisfactory conclusions for our technical scalability expectations.
