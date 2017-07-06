@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include shared/head.html %}
 
-  <body id="page-top">
+  <body id="page-top" class="blog-page">
 
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+    {% include shared/header.html %}
+    {% include blog/jumbotron.html %}
+    <main class="site-content">
+      {{ content }}
+    </main>
+    {% include shared/footer.html %}
 
     <!-- Large modal -->
     <div id="modal-body" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">

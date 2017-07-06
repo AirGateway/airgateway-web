@@ -4,9 +4,6 @@
   background-position: 50% 50%;
   border-right: none;
   background-size: cover;
-  .container{
-    display: table;
-  }
   h1{
     @extend .text-huge;
     font-weight: 100;
@@ -22,29 +19,49 @@
   }
   &--home{
     background-image: url('/img/jumbotron-home-bg.jpg');
+    .container{
+      display: table;
+    }
     h1{
       display: table-cell;
       vertical-align: middle;
     }
-  }
-  @media #{$mini} {
-    .container{
-      min-height: 100vh;
+    @media #{$mini} {
+      .container{
+        min-height: 100vh;
+      }
+    }
+    @media #{$mobile} {
+      .container{
+        min-height: 50vh;
+      }
+    }
+    @media #{$tablet} {
+      .container{
+        min-height: 400px;
+      }
+    }
+    @media #{$desktop-up} {
+      .container{
+        min-height: 600px;
+      }
     }
   }
-  @media #{$mobile} {
-    .container{
-      min-height: 50vh;
+  &--blog{
+    //background-image: url('/img/jumbotron-home-bg.jpg');
+    background-color: #f0f;
+    h1{
+      margin-top: 150px;
     }
-  }
-  @media #{$tablet} {
-    .container{
-      min-height: 400px;
+    @media #{$mini} {
+      .container{
+        min-height: 200px;
+      }
     }
-  }
-  @media #{$desktop-up} {
-    .container{
-      min-height: 600px;
+    @media #{$mobile-up} {
+      .container{
+        min-height: 300px;
+      }
     }
   }
 }
