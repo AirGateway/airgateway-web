@@ -4,15 +4,12 @@ date: 2017-03-31
 post-date: Mar 2017
 author: Admin
 published: true
+img-cover: AirGateway-SITA-logos.png
+img-cover_2x: AirGateway-SITA-logos@2x.png
 img: AirGateway-SITA-logos.png
-img_2x: AirGateway-SITA-logos@2x.png
 category: Agreements
 layout: post
 entry: We are really glad to announce our partnership with SITA, one of the most relevant IT companies in the airline industry
----
-{:refdef: class="centered"}
-![Take out](/img/posts/AirGateway-SITA-logos.png){:class="img-responsive"}
-{:refdef}
 
 ---
 

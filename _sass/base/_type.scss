@@ -7,6 +7,10 @@ h6, .h6{
   color: $gray-darker;
 }
 
+b, strong{
+  font-weight: 600;
+}
+
 .text-huge { font-size: $font-size-huge - $huge-font-reduction-xs; }
 h1, .h1    { font-size: $font-size-h1   - $h1-font-reduction-xs; }
 h2, .h2    { font-size: $font-size-h2   - $h2-font-reduction-xs; }

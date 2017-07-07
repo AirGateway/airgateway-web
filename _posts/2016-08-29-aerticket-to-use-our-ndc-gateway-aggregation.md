@@ -4,15 +4,12 @@ date: 2016-08-29
 post-date: Aug 2016
 author: Admin
 published: true
+img-cover: the-plane-take-off-lights.jpg
+img-cover_2x: the-plane-take-off-lights@2x.jpg
 img: the-plane-take-off-lights.jpg
-img_2x: the-plane-take-off-lights@2x.jpg
 category: Agreements
 layout: post
 entry: AERTiCKET, the biggest air travel retailer in Germany, will be integrating with our NDC Gateway service.
----
-{:refdef: class="centered"}
-![Take out](/img/posts/aerticket-banner.png){:class="img-responsive"}
-{:refdef}
 
 ---
 

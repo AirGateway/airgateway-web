@@ -3,12 +3,12 @@ body{
 }
 
 .site-content{
-  padding: $content-padding-sm 0;
-  @media #{$desktop-up}{
-    padding: $content-padding 0;
-  }
+  padding: $content-padding-top-sm 0 $content-padding-bottom-sm;
   &--stuck{
     padding: 0!important;
+  }
+  @media #{$desktop-up}{
+    padding: $content-padding-top 0 $content-padding-bottom;
   }
 }
 

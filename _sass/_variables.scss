@@ -14,8 +14,10 @@ $logo-dmstk-sprite:     'logo-domestika-sprite.svg';
 
 
 //== Content padding top and bottom
-$content-padding:    100px;
-$content-padding-sm: 50px;
+$content-padding-top:        250px;
+$content-padding-bottom:     100px;
+$content-padding-top-sm:     50px;
+$content-padding-bottom-sm:  $content-padding-top-sm;
 
 
 //== Colors
@@ -23,12 +25,12 @@ $content-padding-sm: 50px;
 //## Gray and brand colors for use across Bootstrap.
 
 $gray-base:              #000 !default;
-$gray-darkest:           #1F1F27 !default; // USED
-$gray-darker:            #25252F !default; // USED
-$gray-dark:              #434350 !default; // USED
-$gray:                   #82828C !default; // USED
-$gray-light:             #B4B5BE !default; // USED
-$gray-lighter:           lighten($gray-base, 93.5%) !default;
+$gray-darkest:           #1F1F27 !default;
+$gray-darker:            #25252F !default;
+$gray-dark:              #434350 !default;
+$gray:                   #82828C !default;
+$gray-light:             #B4B5BE !default;
+$gray-lighter:           #E7E7E9 !default;
 
 $brand-primary:         #E63946 !default;
 $brand-success:         #10AD6C !default;
