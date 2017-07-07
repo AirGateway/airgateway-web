@@ -1,3 +1,6 @@
 a{
   @include transition(all 0.25s ease-out);
+  &.read-more{
+    font-weight: 500;
+  }
 }

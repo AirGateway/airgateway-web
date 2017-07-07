@@ -9,8 +9,31 @@
     }
   }
   &__cover{
-    @extend .img-responsive;
-    @extend .center-block;
+    display: block;
+    margin-bottom: 30px;
+    img{
+      @extend .img-responsive;
+      @extend .center-block;
+    }
+  }
+  &__metadata{
+    margin-bottom: 10px;
+    font-size: $font-size-small;
+    font-weight: 500;
+  }
+  &__author{
+    &:after{
+      content: " | ";
+      margin: 0 5px;
+    }
+  }
+  &__title{
+    margin: 0 0 20px;
+    font-weight: 600;
+    line-height: 1.475;
+    a{
+      color: $gray-darker;
+    }
   }
 }
 
