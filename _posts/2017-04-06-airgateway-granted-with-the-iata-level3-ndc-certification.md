@@ -10,10 +10,6 @@ img: IATA_NDC_Certified.png
 category: Grants
 layout: post
 entry: We proudly announce that AirGateway has been granted with the IATA Level 3 NDC certification
----
-{:refdef: class="centered"}
-![IATA NDC Certification Level 3](/img/posts/IATA_NDC_Certified.png){:class="img-responsive"}
-{:refdef}
 
 ---
 
@@ -32,7 +28,6 @@ We proudly announce that AirGateway has been granted with the [IATA Level 3 NDC 
 | OrderChangeRQ     |Yes          |Yes            |Yes            |
 | OrderCancelRQ     |Yes          |Yes            |Yes            |
 
----
 The wide spectrum of versions and schemas supported by our **NDC aggregation Gateway** gives an idea of the flexibility and adaption capability of our technlogy which will allow us to adopt instantly airlines differenciated new NDC capabilities and versions.
 
 We would like to say thanks to our deployment partners, [SITA](https://www.sita.aero/) and [Farelogix](https://www.farelogix.com/), for facilitating this certification process.

@@ -166,3 +166,12 @@
 *  @include absolute(top 0 left 1em);
 * }
 */
+
+// Links variant
+@mixin link-variant($color, $color-hover) {
+  color: $color;
+  &:hover,
+  &:focus{
+    color: $color-hover;
+  }
+}

@@ -45,7 +45,7 @@
     font-weight: 600 !important;
   }
   &__comments{
-    margin-top: 100px;
+    margin: 100px 0;
   }
   .posts-list &{
     &__title{
@@ -67,8 +67,12 @@
     }
     &__body{
       font-size: $font-size-large;
-      p, ul, ol{
+      p, ul, ol, table{
         margin: 25px 0;
+      }
+      table{
+        margin-bottom: 50px;
+        @extend .table;
       }
     }
   }

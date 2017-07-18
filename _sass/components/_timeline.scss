@@ -1,0 +1,37 @@
+.timeline{
+  margin-top: 100px;
+  margin-bottom: 120px;
+  text-align: center;
+  overflow: hidden;
+  &:before{
+    content: '';
+    @include absolute(top 43px left 0);
+    @include size(100%, 10px);
+    transform: translateX(-100px);
+    background-color: #FFF;
+  }
+  i{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+  }
+  &__date,
+  &__title{
+    margin: 0 0 5px;
+    font-size: $font-size-xsmall;
+    font-weight: 600;
+    color: #FFF;
+  }
+  &__date{
+    text-transform: uppercase;
+  }
+  &__title{
+    line-height: $line-height-base;
+  }
+  &__body{
+    font-size: $font-size-xsmall;
+    p{
+      margin: 0;
+    }
+  }
+}

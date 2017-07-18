@@ -7,8 +7,11 @@ h6, .h6{
   color: $gray-darker;
 }
 
-b, strong{
+b, strong, th{
   font-weight: 600;
+}
+table{
+  border-bottom: 1px solid $gray-lighter;
 }
 
 .text-huge { font-size: $font-size-huge - $huge-font-reduction-xs; }

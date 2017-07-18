@@ -4,3 +4,9 @@ a{
     font-weight: 500;
   }
 }
+
+.link{
+  &-secondary{
+    @include link-variant($link-secondary-color, $link-secondary-hover-color);
+  }
+}
