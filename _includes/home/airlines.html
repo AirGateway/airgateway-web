@@ -1,9 +1,11 @@
 <section id="airlines">
   <div class="container">
-    {% for airline in site.airlines %}
-    <div class="col-sm-2 airline-logo">
-      <img src="img/airlines/{{ airline.label }}.png" alt="{{ airline.name }}" title="{{ airline.name }}"/>
-    </div>
-    {% endfor %}
+    <ul class="row airlines-list">
+      {% for airline in site.airlines %}
+      <li class="col-sm-2 airlines-list__item">
+        <img src="img/airlines/{{ airline.label }}.png" alt="{{ airline.name }}" title="{{ airline.name }}"/>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
