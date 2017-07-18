@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -32,36 +26,3 @@ $('#modal-body').on('show.bs.modal', function (event) {
   // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
   // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
 });
-
-
-// Timeline carousel
-var autoplaySpeed = 2000;
-var autoplayOn    = false;
-var $slickRoot    = $('#js-timeline-carousel');
-
-$slickRoot.on('init', function() {
-  window.setInterval(function() {
-    if (!autoplayOn) return;
-    $slickRoot.slick('slickPrev');
-  }, autoplaySpeed);
-});
-
-$slickRoot.slick({
-  autoplay: false,
-  speed: 300,
-  cssEase: 'linear',
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  initialSlide: $('#js-timeline-carousel > .my-slide').length - 3
-});
-
-//$('#js-timeline-carousel').slick({
-//  infinite: false,
-//  autoplay: false,
-//  speed: 300,
-//  cssEase: 'linear',
-//  slidesToShow: 3,
-//  slidesToScroll: 1
-//  //initialSlide: $('#js-timeline-carousel > .my-slide').length - 3
-//});
-
