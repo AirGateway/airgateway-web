@@ -24,7 +24,8 @@ Images are in '/img/team/'
 ### Icons and sprite
 
 1. Install Gulp dependencies/packages: `npm install`
-2. Watch icons and sprites changes: `gulp`
+2. Watch icons, scripts and sprites changes: `gulp`
+3. Build icons, scripts and sprites changes: `gulp build`
 
 # Demo
 

@@ -12,12 +12,32 @@ var concat      = require('gulp-concat');
 var uglify      = require('gulp-uglify');
 var rename      = require('gulp-rename');
 var compass     = require('gulp-compass');
- var imagemin  = require('gulp-imagemin');
+var imagemin    = require('gulp-imagemin');
 var iconfont    = require('gulp-iconfont');
 var spritesmith = require('gulp.spritesmith');
 var consolidate = require('gulp-consolidate');
 var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
+
+// Concatenate & Minify JS
+gulp.task('scripts', function() {
+  gulp.src(src + 'js/**/*.js')
+      .pipe(order([
+        src + '/js/vendor/jquery-3.2.1.min.js',
+        src + '/js/vendor/bootstrap.min.js',
+        src + '/js/vendor/jquery.easing.min.js',
+        src + '/js/vendor/cbpAnimatedHeader.js',
+        src + '/js/vendor/jquery.matchHeight-min.js',
+        src + '/js/vendor/jqBootstrapValidation.js',
+        src + '/js/vendor/contact_me.js',
+        src + '/js/application.js'
+      ], { base: './' }))
+      .pipe(concat('application.js'))
+      .pipe(rename({suffix: '.min'}))
+      .pipe(uglify({mangle: false}))
+      .pipe(gulp.dest(dest + 'js'))
+      .pipe(reload({stream: true}));
+});
 
 // Sprite
 gulp.task('sprites', function() {
@@ -62,6 +82,9 @@ gulp.task('iconfont', function(){
 
 // Watch
 gulp.task('watch', function() {
+  // Watch .js files
+  gulp.watch(src + 'js/**/*.js', ['scripts']);
+  // Watch .scss files
   gulp.watch(src + 'scss/**/*', ['compass']);
   // Watch sprites files
   gulp.watch(src + 'icons-sprite/**/*', ['sprites']);
@@ -70,7 +93,7 @@ gulp.task('watch', function() {
 });
 
 // Build Task
-gulp.task('build', ['sprites', 'iconfont']);
+gulp.task('build', ['scripts', 'sprites', 'iconfont']);
 
 // Default Task
 gulp.task('default', ['build', 'watch']);
