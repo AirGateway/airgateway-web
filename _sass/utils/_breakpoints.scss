@@ -9,5 +9,3 @@ $desktop:         'only screen and (min-width: ' + $screen-md-min + ') and (max-
 $desktop-up:      'only screen and (min-width: ' + $screen-md-min + ')'; // (min-width: 992px )
 $desktop-lg-down: 'only screen and (max-width: ' + $screen-md-max + ')'; // (max-width: 1200px )
 $desktop-lg:      'only screen and (min-width: ' + $screen-lg-min + ')'; // (min-width: 1200px )
-
-$mini-portrait:   'only screen and (max-width: ' + ($screen-xs-min - 1) + ') and (orientation: portrait)';  // (max-width: 479px and portrait )

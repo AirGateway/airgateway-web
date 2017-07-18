@@ -13,7 +13,10 @@
     @include absolute(bottom 20px left 50%);
     @include size(48px, 48px);
     transform: translateX(-50%);
-    color: #FFF;
+    font-size: 24px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFF!important;
     background-color: $brand-primary;
     border-radius: 50%;
   }
@@ -34,6 +37,8 @@
     @media #{$mobile} {
       .container{
         min-height: 50vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
       }
     }
     @media #{$tablet} {

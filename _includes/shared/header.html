@@ -9,11 +9,13 @@
         <span class="sr-only">Toggle navigation</span>
       </button>
       {% if page.url == "/" %}
-        <a class="navbar-brand page-scroll" href="#page-top"><i class="i-sprite-logo-airgateway">{{site.title}}</i></a>
+      <a class="navbar-brand page-scroll" href="#page-top">
       {% else %}
-        <a class="navbar-brand" href="/"><i class="i-sprite-logo-airgateway">{{site.title}}</i></a>
+      <a class="navbar-brand" href="/">
       {% endif %}
-
+        <i class="i-sprite-logo-airgateway hidden-xs hidden-sm"></i>
+        <i class="i-sprite-logo-airgateway-sm visible-xs visible-sm">{{site.title}}</i>
+      </a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
