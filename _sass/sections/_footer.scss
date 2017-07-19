@@ -1,5 +1,6 @@
 .site-footer{
   padding: 45px 0;
+  line-height: 32px;
   color: #FFF;
   background-color: $gray-darker;
   a{
@@ -7,6 +8,9 @@
   }
   ul{
     margin-bottom: 20px;
+  }
+  &__social{
+    font-size: 32px;
   }
   &__quicklinks{
     a{

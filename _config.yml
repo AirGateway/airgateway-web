@@ -66,22 +66,22 @@ products:
 
 # Airlines
 airlines:
-  - label: BA
+  - image: british-airways
     name: British Airways
     date: 01-Sep-2016
-  - label: AA
+  - image: american-airlines
     name: American Airlines
     date: 20-Sep-2016
-  - label: S7
+  - image: s7-airlines
     name: Siberian Airlines
     date: 20-Nov-2016
-  - label: EK
+  - image: emirates
     name: Emirates
     date: 01-Feb-2017
-  - label: IB
+  - image: iberia
     name: Iberia Líneas Aéreas de España
     date: 01-Mar-2017
-  - label: WS
+  - image: westjet-airlines
     name: WestJet Airlines
     date: 15-Mar-2017
 

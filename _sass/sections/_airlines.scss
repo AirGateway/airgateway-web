@@ -1,19 +1,19 @@
 #airlines{
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: $blue-light;
-  img{
-    @extend .img-responsive;
-    opacity: 0.75;
-    @include transition(all 0.25s ease-out);
-    &:hover,
-    &:focus{
-      opacity: 1;
-    }
-  }
 }
 
 .airlines-list{
   margin-bottom: 0;
   padding-left: 0;
   list-style-type: none;
+  img{
+    @extend .img-responsive;
+    @include transition(all 0.25s ease-out);
+    margin: 0 auto;
+    &:hover,
+    &:focus{
+      opacity: 1;
+    }
+  }
 }

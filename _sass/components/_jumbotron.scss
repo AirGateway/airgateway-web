@@ -10,15 +10,24 @@
     line-height: 1.33;
   }
   &__plane{
-    @include absolute(bottom 20px left 50%);
+    @include absolute(bottom 25px left 50%);
     @include size(48px, 48px);
     transform: translateX(-50%);
-    font-size: 24px;
-    line-height: 58px;
-    text-align: center;
-    color: #FFF!important;
-    background-color: $brand-primary;
-    border-radius: 50%;
+    font-size: 48px;
+    color: $brand-primary;
+    i{
+      position: relative;
+      z-index: 2;
+    }
+    &:after{
+      content: '';
+      @include absolute(top 50% left 50%);
+      transform: translate(-50%, -50%);
+      @include size(75%, 75%);
+      background-color: #FFF;
+      z-index: 1;
+      border-radius: 50%;
+    }
   }
   &--home{
     background-image: url('/img/jumbotron-home-bg.jpg');
