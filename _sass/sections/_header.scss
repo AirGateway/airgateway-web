@@ -25,7 +25,7 @@
       margin: 0;
       >a{
         padding: 0 ($navbar-padding-horizontal / 2);
-        margin-top: 72px;
+        margin-top: ($navbar-height - ($navbar-height / 2) - 10px);
       }
       &:last-child{
         >a{
