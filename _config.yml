@@ -39,7 +39,7 @@ social:
 # Products
 products:
   - name: NDC Gateway
-    desc: Our NDC Gateway aggregator enables OTAs, TMCs or Fare Consolidators to adopt the NDC standard seamless, faster, at a lower costs.
+    desc: Our NDC Gateway aggregator enables OTAs, TMCs or Fare Consolidators to adopt the NDC standard seamless, faster, and saving development costs.
     icon: i-agw-airplane-o
     features:
       - NDC-compliant real-time aggregation
