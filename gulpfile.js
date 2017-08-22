@@ -62,6 +62,7 @@ gulp.task('iconfont', function(){
   gulp.src([src + 'icons-font/*.svg']).
     pipe(iconfont({
       fontName: 'agw-icons', // required
+      fontHeight: 1000,
       normalize: true, // icons to have the same height
       prependUnicode: false, // recommended option
       formats: ['woff2', 'woff'], // default, 'woff2' and 'svg' are available
