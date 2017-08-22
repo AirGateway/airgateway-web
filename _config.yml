@@ -1,10 +1,10 @@
 # Site settings
 title: AirGateway # - Disrupting the air travel distribution
-head-title: AirGateway - Enabling the NDC age for the air-travel distribution industry
+head-title: AirGateway - Enabling the NDC age for the airline distribution industry
 company: AirGateway GmbH
 email: contact@airgateway.net
 url: http://airgateway.net
-description: "Enabling the NDC age for the air travel retail industry. We are basing our services on enabling the IATA's NDC (New Distribution Capability) standard for air-travel related companies."
+description: "Enabling the NDC age for the airline distribution industry. We're a technical partner for travel agents (OTAs, TMCs, Tour-operators, and Consolidators) facilitating them the access to the new IATA's NDC (New Distribution Capability) standard"
 footer: AirGateway GmbH.
 blog-title: AirGtwy Blog
 
@@ -38,31 +38,31 @@ social:
 
 # Products
 products:
-  - name: NDC Gateway
-    desc: Our NDC Gateway aggregator enables OTAs, TMCs or Fare Consolidators to adopt the NDC standard seamless, faster, and saving development costs.
+  - name: "NDC Aggregation Gateway"
+    desc: "Our NDC Gateway aggregator enables OTAs, TMCs, Tour-Operators, or Consolidators to adopt the NDC standard in a seamless way while saving development costs and times."
     icon: i-agw-airplane-o
     features:
-      - NDC-compliant real-time aggregation
-      - Anonymous/Personalised Shopping
-      - NDC implementations isolation (SOAP, REST)
-      - Authentication methods isolation
-      - Ancilliaries Normalization between airlines
-  - name: NDC Analytics
-    desc: Our NDC Analytics suite provides a better view and understanding on your NDC Channel. It's flexible and customizable to track any data on your NDC channel.
+      - "NDC-aligned full real-time aggregation"
+      - "NDC implementation & version agnostic"
+      - "Full NDC capabilities: Shopping, Booking, Servicing, Ticketing"
+      - "Anonymous and Personalised Shopping, Private/Public/Corporate Fares"
+      - "Ancilliaries support and normalization"
+  - name: "NDC Analytics Tool"
+    desc: "Our NDC Analytics suite provides a better view and understanding on your NDC Channel. It's flexible and customizable to track any relevant KPI for your business through your live NDC channel."
     icon: i-agw-graph-o
     features:
-      - NDC-focused analytics
-      - Technical and Business relevant KPIs
-      - Customizable KPI's
-      - Customizable display and dashboards
-  - name: NDC Monitor
-    desc: A service to monitor 24/7 your NDC channel observing performance and raising alerts when indicators go out of range.
+      - "NDC-aware performance analytics"
+      - "Technical and Business relevant KPIs"
+      - "Customizable KPIs for your business"
+      - "Customizable outcoming charts, dashboards, and reports"
+  - name: NDC Monitor Tool
+    desc: A service monitor 24/7 to your NDC channel observing its performance and raising alerts when indicators go out of range.
     icon: i-agw-radar-o
     features:
-      - NDC-focused indicators
-      - Technical and Business relevant indicators
-      - Customizable indicators and ranges
-      - API for 3rd party systems integration
+      - "NDC-aware KPIs"
+      - "Technical and Business relevant indicators"
+      - "Customizable indicators and ranges"
+      - "API for 3rd party systems integration"
 
 # Airlines
 airlines:
@@ -92,7 +92,7 @@ updates:
     text: We are building our NDC Gateway, a full NDC-compliant real-time aggregation technology.
   - date: June 2016
     heading: Connected to BA
-    text: We glad to announce we have already enabled British Airways's NDC service (level 3 certification).
+    text: We are glad to announce we have already enabled British Airways NDC API.
     link: /blog/airlines/connected-to-ba.html
   - date: August 2016
     heading: AERTiCKET to use our NDC Gateway Aggregation
@@ -106,6 +106,10 @@ updates:
     heading: AirGateway inks agreement with SITA to collaborate on creating NDC-related products
     text: We will be partnering with SITA to create a family of NDC products for the airline industry
     link: /blog/agreements/airgateway-and-sita-to-partner-building-ndc-products-for-the-airline-industry.html
+    date: March 2017
+  - heading: Lufthansa Group added to our NDC aggregation platform
+    text: Lufthansa, Swiss, Austrian Airlines, and Brussels Airlines are now among the airlines available in our NDC platform for travel agents to connect to
+    date: June 2017
 
 
 
