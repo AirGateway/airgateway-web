@@ -13,8 +13,8 @@ entry: We are happy to disclose the results of the first stress tests made on ou
 
 ---
 
-We used a popular stress testing third-party service like [BlazeMeter](http://blazemeter.com/) to put our platform under pressure and first outcomes are really satisfactory. Using a single instance of our **NDC Gateway**, we managed to handle almost **40K AirShopping requests** (involving multiple providers) during a **20 mins test** while reaching peaks of **53 req/s** with none of them resulting in failure.
+We used a popular stress testing third-party service like [BlazeMeter](http://blazemeter.com/) to put our platform under pressure and first outcomes are really satisfactory. Using a single instance of our **NDC Gateway**, we managed to handle virtually **50K AirShopping requests** (involving multiple providers) during a **20 mins test** while reaching peaks of **53 req/s** with none of them resulting in failure.
 
-This means we could handle easily **2,88MM** requests/day with just a single server node. This numbers make us feel extremely confident on our platform's scalability since it has been built using server-side technologies well known for its incredible scalability capabilities, proven in some World class services like *Whatsapp* and *Google Talk*.
+This means we could handle easily **2,88MM** requests/day with just a single server node. These numbers make us feel extremely confident on our platform's scalability since it has been built using server-side technologies well known for its incredible scalability capabilities, proven in some World class services like *Whatsapp* and *Google Talk*.
 
 You can [download here the PDF](/img/posts/BlazeMeter-AG-AirShopping-LHR-DME.pdf) for more detailed info of the test.
