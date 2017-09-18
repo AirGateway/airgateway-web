@@ -9,7 +9,7 @@ $(function() {
             event.preventDefault(); // prevent default submit behaviour
 
             // Google Analytics event tracker
-            eventLabel = 'email: ' + $("input#email").val();
+            eventLabel = 'email: ' + $("input#contact-email").val();
             ga('send', 'event', {
              eventCategory: 'contactForm',
              eventAction: 'submit',
