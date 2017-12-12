@@ -1,30 +1,34 @@
-# Products
 products:
-  - name: "test"
-    desc: "test."
+  - desc: test
+    features:
+      - test
+      - test2
     icon: test.png
+    name: test
+  - desc: new test.
     features:
-      - "test"
-      - "test2"
-  - name: "new"
-    desc: "new test."
+      - newtest
+      - newtest2
     icon: newtest.png
+    name: new
+  - desc: >-
+      Our NDC Analytics suite provides a better view and understanding on your
+      NDC Channel. It's flexible and customizable to track any relevant KPI for
+      your business through your live NDC channel.
     features:
-      - "newtest"
-      - "newtest2"
-  - name: "NDC Analytics Tool"
-    desc: "Our NDC Analytics suite provides a better view and understanding on your NDC Channel. It's flexible and customizable to track any relevant KPI for your business through your live NDC channel."
+      - NDC-aware performance analytics
+      - Technical and Business relevant KPIs
+      - Customizable KPIs for your business
+      - 'Customizable outcoming charts, dashboards, and reports'
     icon: i-agw-graph-o
+    name: NDC Analytics Tool
+  - desc: >-
+      A service monitor 24/7 to your NDC channel observing its performance and
+      raising alerts when indicators go out of range.
     features:
-      - "NDC-aware performance analytics"
-      - "Technical and Business relevant KPIs"
-      - "Customizable KPIs for your business"
-      - "Customizable outcoming charts, dashboards, and reports"
-  - name: NDC Monitor Tool
-    desc: A service monitor 24/7 to your NDC channel observing its performance and raising alerts when indicators go out of range.
+      - NDC-aware KPIs
+      - Technical and Business relevant indicators
+      - Customizable indicators and ranges
+      - API for 3rd party systems integration
     icon: i-agw-radar-o
-    features:
-      - "NDC-aware KPIs"
-      - "Technical and Business relevant indicators"
-      - "Customizable indicators and ranges"
-      - "API for 3rd party systems integration"
+    name: NDC Monitor Tool
