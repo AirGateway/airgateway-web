@@ -24,7 +24,7 @@ products:
     name: NDC Analytics Tool
   - desc: >-
       A service monitor 24/7 to your NDC channel observing its performance and
-      raising alerts when indicators go out of range
+      raising alerts when indicators go out of range.
     features:
       - NDC-aware KPIs
       - Technical and Business relevant indicators
