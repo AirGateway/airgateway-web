@@ -2,7 +2,7 @@
 backend:
   name: github
   repo: AirGateway/airgateway-web
-  branch: master
+  branch: netlify
 
 # Use the Editorial workflow - https://github.com/netlify/netlify-cms/blob/master/docs/editorial_workflow.md
 publish_mode: editorial_workflow
@@ -11,50 +11,41 @@ publish_mode: editorial_workflow
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 
-# Collections
-collections: # A list of collections the CMS should be able to edit
-  # Used in routes, ie.: /admin/collections/:slug/edit
-  - name: "login"
-    # Used in the UI, ie.: "New Post"
-    label: "Login"
-    # The path to the folder where the documents are stored
-    folder: "content/login"
-    # Allow users to create new documents in this collection
-    create: false
-    # Filename template e.g. YYYY-MM-DD-title.md
-    slug: "_index"
-    # The fields each document in this collection have
+collections:
+  - label: "Main Page"
+    name: "main_page"
+    files:
+      - label: Products
+        name: products
+        file: _products/products.yml
+        description: Products available
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Desc", name: "desc", widget: "text"}
+          - {label: "Icon", name: "icon", widget: "string"}
+          - {label: "Features", name: "features", widget: "list"}
+      - name: airlines
+        label: Airlines
+        folder: _airlines/airlines.yml
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Image", name: "image", widget: "string"}
+          - {label: "Date", name: "date", widget: "date"}
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      # Use required: false instead of optional: true - https://github.com/netlify/netlify-cms/issues/315
-      #- {label: "Description", name: "description", widget: "text", required: false}
-      #- {label: "Body", name: "body", widget: "markdown"}
-    meta:
-      #- {label: "Date", name: "date", widget: "datetime"}
-  - name: "register"
-    # Used in the UI, ie.: "New Post"
-    label: "Register"
-    # The path to the folder where the documents are stored
-    folder: "content/register"
-    # Allow users to create new documents in this collection
-    create: false
-    # Filename template e.g. YYYY-MM-DD-title.md
-    slug: "{{slug}}"
-    # The fields each document in this collection have
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-  - name: "apis"
-    # Used in the UI, ie.: "New Post"
-    label: "APIs"
-    # The path to the folder where the documents are stored
-    folder: "content/apis"
-    # Allow users to create new documents in this collection
-    create: false
-    # Filename template e.g. YYYY-MM-DD-title.md
-    slug: "{{slug}}"
-    # The fields each document in this collection have
-    fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-# Does not currently work, see https://github.com/netlify/netlify-cms/issues/248
-#      - {label: "Tags", name: "tags", widget: "list"}
-#      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Post Date", name: "post-date", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Published", name: "published", widget: "bool"}
+      - {label: "Cover Image", name: "img-cover", widget: "string"}
+      - {label: "Cover Image 2x", name: "img-cover_2x", widget: "string"}
+      - {label: "Image", name: "img", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden"}
+      - {label: "Entry", name: "entry", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
