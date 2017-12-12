@@ -17,7 +17,7 @@
           <h4 class="timeline-list__title">{{ update.heading }}</h4>
           <div class="timeline-list__body">
             <p>{{ update.text }}</p>
-            {% if update.link %}
+            {% if update.link != '' %}
               <p><a href="{{ update.link }}" class="read-more link-secondary">Read more</a></p>
             {% endif %}
           </div>
