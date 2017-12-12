@@ -42,6 +42,19 @@ collections:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Date", name: "date", widget: "string"}
               - {label: "Image", name: "image", widget: "string"}
+      - label: Updates
+        name: updates
+        file: _data/updates.yml
+        description: Updates
+        fields:
+          - name: updates
+            label: Updates
+            widget: list
+            create: true
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Date", name: "date", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
   - name: "posts"
     label: "Posts"
     folder: "_posts"

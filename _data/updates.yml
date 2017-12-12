@@ -1,0 +1,25 @@
+# About
+updates:
+  - date: April 2016
+    heading: AirGateway is founded
+    text: We are building our NDC Gateway, a full NDC-compliant real-time aggregation technology.
+  - date: June 2016
+    heading: Connected to BA
+    text: We are glad to announce we have already enabled British Airways NDC API.
+    link: /blog/airlines/connected-to-ba.html
+  - date: August 2016
+    heading: AERTiCKET to use our NDC Gateway Aggregation
+    text: AERTiCKET, the biggest air-travel retailer in Germany, will be integrating with our NDC Gateway.
+    link: /blog/agreements/aerticket-to-use-our-ndc-gateway-aggregation.html
+  - date: January 2017
+    heading: AirGateway selected to exhibit in the Travel Technology Europe Launchpad
+    text: We have been selected as launchpad exhibitors in the most popular event in Europe introducing disrupting technologies for the travel industry.
+    link: /blog/events/airgateway-selected-to-exhibit-in-the-travel-technology-europe-launchpad.html
+  - date: March 2017
+    heading: AirGateway inks agreement with SITA to collaborate on creating NDC-related products
+    text: We will be partnering with SITA to create a family of NDC products for the airline industry
+    link: /blog/agreements/airgateway-and-sita-to-partner-building-ndc-products-for-the-airline-industry.html
+    date: March 2017
+  - heading: Lufthansa Group added to our NDC aggregation platform
+    text: Lufthansa, Swiss, Austrian Airlines, and Brussels Airlines are now among the airlines available in our NDC platform for travel agents to connect to
+    date: June 2017
