@@ -1,7 +1,7 @@
 <section id="airlines">
   <div class="container">
     <ul class="list-inline airlines-list text-center">
-      {% for airline in site.airlines %}
+      {% for airline in site.data.airlines.airlines %}
       <li class="airlines-list__item">
         <img src="img/airlines/{{ airline.image }}.svg" alt="{{ airline.name }}" title="{{ airline.name }}"/>
       </li>
