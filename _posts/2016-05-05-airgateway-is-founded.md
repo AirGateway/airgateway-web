@@ -1,6 +1,6 @@
 ---
 title: AirGateway is founded
-date: 2016-05-05
+date: 2016-05-05T00:00:00.000Z
 post-date: May 2016
 author: Admin
 published: true
@@ -9,8 +9,10 @@ img-cover_2x: the-plane-take-off-lights@2x.jpg
 img: the-plane-take-off-lights.jpg
 category: Company
 layout: post
-entry: AirGateway has been legally established today with the main goal of bringing a new way to access to the Air-travel distribution industry, leaving behind the old-fashioned and at many levels inefficient GDS aggregation model.
-
+entry: >-
+  AirGateway has been legally established today with the main goal of bringing a
+  new way to access to the Air-travel distribution industry, leaving behind the
+  old-fashioned and at many levels inefficient GDS aggregation model
 ---
 
 AirGateway has been legally established today with the main goal of bringing a new way to access to the Air-travel distribution industry, leaving behind the old-fashioned and at many levels inefficient GDS aggregation model.
