@@ -1,32 +1,31 @@
-# Airlines
 airlines:
-  - image: british-airways
+  - date: 01-Sep-2016
+    image: /img/british-airways.svg
     name: British Airways
-    date: 01-Sep-2016
-  - image: american-airlines
+  - date: 20-Sep-2016
+    image: /img/american-airlines.svg
     name: American Airlines
-    date: 20-Sep-2016
-  - image: s7-airlines
+  - date: 20-Nov-2016
+    image: /img/s7-airlines.svg
     name: Siberian Airlines
-    date: 20-Nov-2016
-  - image: emirates
+  - date: 01-Feb-2017
+    image: /img/emirates.svg
     name: Emirates
-    date: 01-Feb-2017
-  - image: iberia
+  - date: 01-Mar-2017
+    image: /img/iberia.svg
     name: Iberia Líneas Aéreas de España
-    date: 01-Mar-2017
-  - image: westjet-airlines
+  - date: 15-Mar-2017
+    image: /img/westjet-airlines.svg
     name: WestJet Airlines
-    date: 15-Mar-2017
-  - image: lufthansa
+  - date: 22-Aug-2017
+    image: /img/lufthansa.svg
     name: Lufthansa
-    date: 22-Aug-2017
-  - image: swiss
+  - date: 22-Aug-2017
+    image: /img/swiss.svg
     name: Swiss
-    date: 22-Aug-2017
-  - image: austrian-airlines
+  - date: 22-Aug-2017
+    image: /img/austrian-airlines.svg
     name: Austrian Airlines
-    date: 22-Aug-2017
-  - image: brussels-airlines
+  - date: 22-Aug-2017
+    image: /img/brussels-airlines.svg
     name: Brussels Airlines
-    date: 22-Aug-2017
