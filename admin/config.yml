@@ -1,6 +1,6 @@
 # Save changes to GitHub
 backend:
-  name: github
+  name: git-gateway
   repo: AirGateway/airgateway-web
   branch: netlify
 
