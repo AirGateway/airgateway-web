@@ -1,2 +1,3 @@
 # Redirect domain aliases to primary domain
 https://airgateway.net/* https://airgateway.com/:splat 301!
+http://airgateway.net/* https://airgateway.com/:splat 301!
