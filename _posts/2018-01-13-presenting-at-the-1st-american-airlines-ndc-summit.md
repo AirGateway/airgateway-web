@@ -8,6 +8,7 @@ img-cover: /img/2017_ndc_summit.png
 img-cover_2x: /img/2017_ndc_summit.png
 img: /img/2017_ndc_summit.png
 category: Events
+layout: post
 entry: >-
   AirGateway will be presented at the 1st [American Airlines NDC
   Summit](https://www.eiseverywhere.com/ehome/243946/) happening this week in
