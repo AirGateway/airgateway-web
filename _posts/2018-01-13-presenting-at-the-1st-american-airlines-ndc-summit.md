@@ -1,6 +1,6 @@
 ---
 title: Presenting at the 1st American Airlines NDC Summit
-date: 2017-06-18T08:36:16+02:00
+date: 2017-06-18T06:36:16.000Z
 post-date: Jun 2017
 author: Admin
 published: true
@@ -14,7 +14,7 @@ entry: >-
   Summit](https://www.eiseverywhere.com/ehome/243946/) happening this week in
   Dallas.
 ---
-AirGateway will be presented at the 1st \[American Airlines NDC Summit](https://www.eiseverywhere.com/ehome/243946/) happening this week in Dallas.
+AirGateway will be presented at the 1st [American Airlines NDC Summit](https://www.eiseverywhere.com/ehome/243946/) happening this week in Dallas.
 
 
 
