@@ -10,14 +10,14 @@
     <div class="timeline">
 
       <ul class="timeline-list clearfix">
-      {% for update in site.updates %}
+      {% for update in site.data.updates.updates %}
         <li class="timeline-list__item">
           <i class="i-sprite-timeline-item timeline-list__icon"></i>
           <h3 class="timeline-list__date">{{ update.date }}</h3>
           <h4 class="timeline-list__title">{{ update.heading }}</h4>
           <div class="timeline-list__body">
             <p>{{ update.text }}</p>
-            {% if update.link %}
+            {% if update.link != '' %}
               <p><a href="{{ update.link }}" class="read-more link-secondary">Read more</a></p>
             {% endif %}
           </div>

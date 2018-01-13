@@ -1,0 +1,75 @@
+# Save changes to GitHub
+backend:
+  name: git-gateway
+  branch: netlify
+
+# Use the Editorial workflow - https://github.com/netlify/netlify-cms/blob/master/docs/editorial_workflow.md
+#publish_mode: editorial_workflow
+
+# Save image uploads to /img/uploads - https://gohugo.io/themes/creation/#static
+media_folder: "/img"
+public_folder: "/img"
+
+collections:
+  - label: "Main Page"
+    name: "main_page"
+    files:
+      - label: Products
+        name: products
+        file: _data/products.yml
+        description: Products available
+        fields:
+          - name: products
+            label: Products
+            widget: list
+            create: true
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Desc", name: "desc", widget: "text"}
+              - {label: "Icon", name: "icon", widget: "string"}
+              - {label: "Features", name: "features", widget: "list"}
+      - label: Airlines
+        name: airlines
+        file: _data/airlines.yml
+        description: Enrolled airlines
+        fields:
+          - name: airlines
+            label: Airlines
+            widget: list
+            create: true
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Date", name: "date", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+      - label: Updates
+        name: updates
+        file: _data/updates.yml
+        description: Updates
+        fields:
+          - name: updates
+            label: Updates
+            widget: list
+            create: true
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Date", name: "date", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
+              - {label: "Link", name: "link", widget: "string"}
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Post Date", name: "post-date", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Published", name: "published", widget: "boolean"}
+      - {label: "Cover Image", name: "img-cover", widget: "image"}
+      - {label: "Cover Image 2x", name: "img-cover_2x", widget: "image"}
+      - {label: "Image", name: "img", widget: "image"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden"}
+      - {label: "Entry", name: "entry", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}

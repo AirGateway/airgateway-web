@@ -58,6 +58,7 @@
     @media #{$desktop-up} {
       .container{
         min-height: 600px;
+        height: 600px;
       }
     }
   }
