@@ -7,8 +7,8 @@ backend:
 #publish_mode: editorial_workflow
 
 # Save image uploads to /img/uploads - https://gohugo.io/themes/creation/#static
-media_folder: "/img"
-public_folder: "/img"
+media_folder: "/"
+public_folder: "/"
 
 collections:
   - label: "Main Page"
@@ -70,6 +70,6 @@ collections:
       - {label: "Cover Image 2x", name: "img-cover_2x", widget: "image"}
       - {label: "Image", name: "img", widget: "image"}
       - {label: "Category", name: "category", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Entry", name: "entry", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
