@@ -1,5 +1,5 @@
 ---
-title: Presenting at the 1st American Airlines NDC Summit
+title: Presenting at the 2017 American Airlines NDC Summit
 date: 2017-06-18
 post-date: Jun 2017
 author: Admin
@@ -10,15 +10,15 @@ img: /2017_ndc_summit.png
 category: Events
 layout: post
 entry: >-
-  AirGateway will be presenting its NDC Aggregation platform at the 1st [American Airlines NDC
+  AirGateway will be presenting its NDC Aggregation platform at the [2017 American Airlines NDC
   Summit](https://www.eiseverywhere.com/ehome/243946/) happening this week in
   Dallas.
 ---
-AirGateway will be presenting its NDC Aggregation platform at the 1st [American Airlines NDC Summit](https://www.eiseverywhere.com/ehome/243946/) happening this week in Dallas in front of the most relevant Travel Agents in the World.
+AirGateway will be presenting its NDC Aggregation platform at the [2017 American Airlines NDC Summit](https://www.eiseverywhere.com/ehome/243946/) happening this week in Dallas counting with the presence of the most relevant Travel Agent players in the World.
 
 This event has been considered as the official public presentation for the direct-connect distribution strategy of the big american carrier which will empower airlines to retail their products in a much more controlled way that it has been done traditionally through the GDS channel.
 
-Some related specialized media links below:
+In addition, some related specialized media links below:
 
 [TravelWeekly: American Airlines has NDC breakthrough](http://www.travelweekly.com/Travel-News/Corporate-Travel/American-Airlines-has-NDC-breakthrough)
 
