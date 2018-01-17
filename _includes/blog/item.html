@@ -1,7 +1,7 @@
 <li class="col-sm-4 posts-list__item" data-match-height="posts-list-item">
   <a href="{{ post.url | prepend: site.baseurl }}" class="post__cover">
     <img src="{{ post.img-cover }}"
-         srcset="/{{ post.img-cover }} 1x, {{ post.img-cover_2x }} 2x"
+         srcset="{{ post.img-cover }} 1x, {{ post.img-cover_2x }} 2x"
          alt="{{ post.title }}">
   </a>
   <p class="post__metadata">
