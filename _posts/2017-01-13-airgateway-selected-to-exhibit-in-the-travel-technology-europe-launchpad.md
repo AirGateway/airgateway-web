@@ -4,9 +4,9 @@ date: 2017-01-13T00:00:00.000Z
 post-date: Jan 2017
 author: Admin
 published: true
-img-cover: /tte-2017-logo.png
-img-cover_2x: /tte-2017-logo.png
-img: /tte-2017-logo.png
+img-cover: /img/tte-2017-logo.png
+img-cover_2x: /img/tte-2017-logo@2x.png
+img: /img/tte-2017-logo.png
 category: Events
 layout: post
 entry: >-
