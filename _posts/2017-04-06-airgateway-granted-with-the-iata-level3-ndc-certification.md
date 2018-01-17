@@ -1,16 +1,17 @@
 ---
 title: AirGateway granted with the IATA Level 3 NDC certification
-date: 2017-04-06
+date: 2017-04-06T00:00:00.000Z
 post-date: Apr 2017
 author: Admin
 published: true
-img-cover: IATA_NDC_Certified.png
-img-cover_2x: IATA_NDC_Certified@2x.png
-img: IATA_NDC_Certified.png
+img-cover: /img/IATA_NDC_Certified.png
+img-cover_2x: /img/IATA_NDC_Certified@2x.png
+img: /img/IATA_NDC_Certified.png
 category: Grants
 layout: post
-entry: We proudly announce that AirGateway has been granted with the IATA Level 3 NDC certification
-
+entry: >-
+  We proudly announce that AirGateway has been granted with the IATA Level 3 NDC
+  certification
 ---
 
 We proudly announce that AirGateway has been granted with the [IATA Level 3 NDC certification](/img/posts/IATA_NDC_Certificate_AirGateway.pdf) for the following NDC versions and schemas:
