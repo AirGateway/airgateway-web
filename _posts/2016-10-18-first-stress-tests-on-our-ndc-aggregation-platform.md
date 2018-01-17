@@ -1,16 +1,18 @@
 ---
 title: First stress tests on our NDC aggregation platform
-date: 2016-10-18
+date: 2016-10-18T00:00:00.000Z
 post-date: Oct 2016
 author: Admin
 published: true
-img-cover: the-plane-take-off-lights.jpg
-img-cover_2x: the-plane-take-off-lights@2x.jpg
-img: the-plane-take-off-lights.jpg
+img-cover: /img/the-plane-take-off-lights.jpg
+img-cover_2x: /img/the-plane-take-off-lights@2x.jpg
+img: /img/the-plane-take-off-lights.jpg
 category: Technology
 layout: post
-entry: We are happy to disclose the results of the first stress tests made on our NDC aggregation platform with very satisfactory conclusions for our technical scalability expectations.
-
+entry: >-
+  We are happy to disclose the results of the first stress tests made on our NDC
+  aggregation platform with very satisfactory conclusions for our technical
+  scalability expectations.
 ---
 
 We used a popular stress testing third-party service like [BlazeMeter](http://blazemeter.com/) to put our platform under pressure and first outcomes are really satisfactory. Using a single instance of our **NDC Gateway**, we managed to handle virtually **50K AirShopping requests** (involving multiple providers) during a **20 mins test** while reaching peaks of **53 req/s** with none of them resulting in failure.
