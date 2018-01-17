@@ -4,9 +4,9 @@ date: 2016-08-29T00:00:00.000Z
 post-date: Aug 2016
 author: Admin
 published: true
-img-cover: /aerticket-logo2.png
-img-cover_2x: /aerticket-logo2.png
-img: /aerticket-logo2.png
+img-cover: /img/aerticket-logo2.png
+img-cover_2x: /img/aerticket-logo2.png
+img: /img/aerticket-logo2.png
 category: Agreements
 layout: post
 entry: >-
