@@ -4,9 +4,9 @@ date: 2017-06-18T00:00:00.000Z
 post-date: Jun 2017
 author: Admin
 published: true
-img-cover: /2017_ndc_summit.png
-img-cover_2x: /2017_ndc_summit.png
-img: /2017_ndc_summit.png
+img-cover: /img/2017_ndc_summit.png
+img-cover_2x: /img/2017_ndc_summit.png
+img: /img/2017_ndc_summit.png
 category: Events
 layout: post
 entry: >-
