@@ -4,9 +4,9 @@ date: 2016-05-05T00:00:00.000Z
 post-date: May 2016
 author: Admin
 published: true
-img-cover: the-plane-take-off-lights.jpg
-img-cover_2x: the-plane-take-off-lights@2x.jpg
-img: the-plane-take-off-lights.jpg
+img-cover: /img/the-plane-take-off-lights.jpg
+img-cover_2x: /img/the-plane-take-off-lights@2x.jpg
+img: /img/the-plane-take-off-lights.jpg
 category: Company
 layout: post
 entry: >-
