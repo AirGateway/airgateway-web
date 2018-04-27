@@ -1,35 +1,19 @@
-Agency Jekyll theme
-====================
-
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+AirGateway Jekyll Website
+=========================
 
 # How to use
 
-###Portfolio
+###Posts
 
 Portfolio projects are in '/_posts'
 
-Images are in '/img/portfolio'
+Images are in '/img/posts'
 
 ###About
 
 Images are in '/img/about/'
 
 ###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-### Icons and sprite
-
-1. Install Gulp dependencies/packages: `npm install`
-2. Watch icons, scripts and sprites changes: `gulp`
-3. Build icons, scripts and sprites changes: `gulp build`
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
