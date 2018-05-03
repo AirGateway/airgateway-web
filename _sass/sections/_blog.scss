@@ -74,6 +74,9 @@
         margin-bottom: 50px;
         @extend .table;
       }
+      img {
+        max-width: 100%;
+      }
     }
   }
 }
