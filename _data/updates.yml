@@ -37,3 +37,9 @@ updates:
     text: >-
       Lufthansa, Swiss, Austrian Airlines, and Brussels Airlines are now among
       the airlines available in our NDC platform for travel agents to connect to
+  - date: May 2018
+    heading: PCI DSS Certified by TüV Süd
+    link: /blog/grants/pci-dss-certified-by-t%C3%BCv-s%C3%BCd.html
+    text: >-
+      We have been recently granted the PCI/DSS certification by the German
+      certification authority TÜV SÜD.
