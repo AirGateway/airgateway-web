@@ -4,9 +4,9 @@ date: '2018-05-03'
 post-date: May 2018
 author: Admin
 published: true
-img-cover: /img/pci_dss_big_mini.jpg
-img-cover_2x: /img/pci_dss_big_mini.jpg
-img: /img/pci-dss_thumb_mini.jpg
+img-cover: /img/pci-dss_thumb_mini.jpg
+img-cover_2x: /img/pci-dss_thumb_mini.jpg
+img: /img/pci_dss_big_mini.jpg
 category: Grants
 layout: post
 entry: >-
