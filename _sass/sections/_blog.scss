@@ -35,10 +35,19 @@
   }
   &__cover{
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    height: 200px;
+
+    .helper {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
     img{
-      @extend .img-responsive;
-      @extend .center-block;
+      max-width: calc(100% - 5px);
+      vertical-align: middle;
+      max-height: 200px;
     }
   }
   &__title{

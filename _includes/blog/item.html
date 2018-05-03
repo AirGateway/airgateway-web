@@ -1,13 +1,16 @@
 <li class="col-sm-4 posts-list__item" data-match-height="posts-list-item">
   <a href="{{ post.url | prepend: site.baseurl }}" class="post__cover">
-    <img src="{{ post.img-cover }}"
-         srcset="{{ post.img-cover }} 1x, {{ post.img-cover_2x }} 2x"
-         alt="{{ post.title }}">
+    <span class="helper"></span>
+    <img src="{{ post.img-cover }}" srcset="{{ post.img-cover }} 1x, {{ post.img-cover_2x }} 2x" alt="{{ post.title }}">
   </a>
   <p class="post__metadata">
     <span class="post__author">{{ post.author }} on {{ post.date | date: "%b %-d, %Y" }}</span>
     <span class="post__category">{{ post.category }}</span>
   </p>
-  <h3 class="post__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-  <p class="post__body">{{ post.entry }}... <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more</a></p>
+  <h3 class="post__title">
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </h3>
+  <p class="post__body">{{ post.entry }}...
+    <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more</a>
+  </p>
 </li>
