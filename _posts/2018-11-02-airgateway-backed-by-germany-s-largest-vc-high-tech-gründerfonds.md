@@ -1,5 +1,5 @@
 ---
-title: AirGateway backed by Germany's largest VC High-Tech Gründerfonds
+title: AirGateway backed by Germany's largest VC High-Tech Gruenderfonds
 date: '2018-11-02'
 post-date: Nov 2018
 author: Admin
