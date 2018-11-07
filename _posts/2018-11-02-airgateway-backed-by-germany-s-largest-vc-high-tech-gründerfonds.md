@@ -22,19 +22,25 @@ Axel Nitsch, Senior Investment Manager at HTGF ads: “We are thrilled to suppor
 
 For further information about AirGateway, this investment, and our market opportunities, please contact Alexander Papachristos (alexander@airgateway.com).
 
-About AirGateway
+## About AirGateway
+
 AirGateway GmbH, is a Berlin-based B2B airline distribution company connecting airlines with corporate, leisure, offline and online travel agents. AirGateway state-of-the-art technology enables airlines and travel agents to enhance their retailing channels bringing rich content, dynamic pricing, and ancillary services as defined by IATA’s new New Distribution Capability standard.
 
-About High-Tech Gründerfonds
+## About High-Tech Gründerfonds
+
 [High-Tech Gründerfonds](https://high-tech-gruenderfonds.de/en/) (HTGF) is a seed investor that finances high-potential, tech-driven start-ups. With € 892.5 million in total investment volume across three funds (€ 272 million in HTGF I, € 304 million in HTGF II and € 316.5 million for HTGF III) and an international partner network, HTGF has already backed up 500 start-ups since 2005. Driven by their expertise, entrepreneurial spirit and passion, its team of experienced investment managers and start-up experts help guiding the development of young companies. HTGF’s focus is on high-tech start-ups across a range of sectors, including software, media, internet, hardware, automation, healthcare, chemicals, and life sciences. Up to now, external investors have invested over € 1,8 billion into the HTGF portfolio via more than 1,300 follow-on financing rounds. HTGF has also successfully exited shares of more than 90 companies.
 Investors in this public-private partnership include the Federal Ministry For Economic Affairs and Energy, the KfW Banking Group, Fraunhofer-Gesellschaft e.V., as well as the companies ALTANA, BASF, BAYER, B.Braun, Boehringer Ingelheim, Robert Bosch, BÜFA, CEWE, Deutsche Post DHL, Dräger, Drillisch AG, EVONIK, EWE AG, Haniel, Hettich, Knauf, Körber, LANXESS, media + more venture Beteiligungs GmbH & Co. KG, PHOENIX CONTACT, Postbank, QIAGEN, RWE Generation SE, SAP, Schufa, Schwarz Gruppe, STIHL, Thüga, Vector Informatik, WACKER and Wilh. Werhahn KG.
 www.high-tech-gruenderfonds.de/en
 
-Contact
+Contact:
+
 High-Tech Gründerfonds Management GmbH
-Axel Nitsch
-Schlegelstraße 2
-53113 Bonn
-T: +49 228 82300 – 167
-a.nitsch@htgf.de
+
+Axel Nitsch\
+Schlegelstraße 2\
+53113 Bonn\
+T: +49 228 82300 – 167\
+a.nitsch@htgf.de\
 www.htgf.de
+
+[HTGF's press release](https://high-tech-gruenderfonds.de/en/airgateway-gmbh-raises-a-seed-round-to-expand-its-product-portfolio-and-operations/)
