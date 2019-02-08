@@ -6,7 +6,7 @@ author: admin
 published: true
 img-cover: /img/bookingpad-rect.png
 img-cover_2x: /img/bookingpad-rect.png
-img: /img/bookingpad-screenshot.png
+img: /img/bookingpad-rect.png
 category: products
 layout: post
 entry: >-
