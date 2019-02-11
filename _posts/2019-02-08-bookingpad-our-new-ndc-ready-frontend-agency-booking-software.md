@@ -29,9 +29,8 @@ Our Front-end implementation provides:
 * Servicing (cancelation and refunds, changes).
 * Orders management (Multi-airline orders search, status tracking, changes notifications, etc.)
 
-\
 We will be soon launching online demos and screencasts displaying all features and use cases.
 
-Keep tuned for more by signing up in our [Bookingpad newsletter](http://bookingpad.net). \
-\
-Visit the product page here: [Bookingpad](http://bookingpad.net)
+Keep tuned for more by signing up in our [Bookingpad newsletter](http://bookingpad.net). 
+
+Visit the product page here: [Bookingpad.net](http://bookingpad.net).
