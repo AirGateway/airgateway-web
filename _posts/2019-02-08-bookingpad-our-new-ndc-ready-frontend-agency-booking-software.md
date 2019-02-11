@@ -31,6 +31,6 @@ Our Front-end implementation provides:
 
 We will be soon launching online demos and screencasts displaying all features and use cases.
 
-Keep tuned for more by signing up in our [Bookingpad newsletter](http://bookingpad.net). 
+Keep tuned for more by signing up in our [Bookingpad newsletter](https://bookingpad.net/#register-form). 
 
 Visit the product page here: [Bookingpad.net](http://bookingpad.net).
