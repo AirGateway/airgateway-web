@@ -3,7 +3,7 @@ title: AirGateway exhibiting at Travel Technology Europe / Business Travel Show 
 date: '2019-02-18'
 post-date: Feb 19
 author: admin
-published: false
+published: true
 img-cover: /img/tte19.jpg
 img-cover_2x: /img/tte19.jpg
 img: /img/btsd1.jpg
