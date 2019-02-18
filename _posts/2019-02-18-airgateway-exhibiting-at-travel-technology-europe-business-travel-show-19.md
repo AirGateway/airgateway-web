@@ -6,7 +6,7 @@ author: admin
 published: true
 img-cover: /img/tte19.jpg
 img-cover_2x: /img/tte19.jpg
-img: /img/btsd1.jpg
+img: /img/tte19.jpg
 category: events
 layout: post
 entry: >-
@@ -14,6 +14,9 @@ entry: >-
   introduce our recently launched new product, Bookingpad, an agent desktop
   application with a specific focus on NDC.
 ---
+![Busines Travel Show '18](/img/btsd1.jpg)
+
+\
 AirGateway will be exhibiting at [Travel Technology Europe](https://www.traveltechnologyeurope.com/) / [Business Travel Show](https://www.businesstravelshow.com/) 2019, where we will be introducing our recently launched new product, [Bookingpad](https://bookingpad.net/), an agent desktop application with a specific focus on NDC.
 
 If you are managing a small to medium-size IATA accredited travel agency (corporate or leisure), you would we probably interested to watch our live-demo. Please, consider yourself invited in [our stand T106](https://www.traveltechnologyeurope.com/whats-on/exhibitor-list/exhibitor/airgateway-gmbh).
