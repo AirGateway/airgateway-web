@@ -1,0 +1,29 @@
+<section id="partners" class="content-section">
+
+  <div class="container">
+
+    <hgroup>
+      <h2>Partners</h2>
+    </hgroup>
+
+    <div class="partners">
+      <ul class="timeline-list clearfix">
+      {% for partner in site.data.partners.partners %}
+        <li class="">
+          <p><img src="/img/partners/{{ partner.logo }}" alt="{{ partner.name }} logo" width="250" />
+          <h3 class="">{{ partner.name }}</h3>
+          <h5 class="">{{ partner.category }}</h5>
+          <div class="">
+            {% if partner.link != '' %}
+              <p><a href="{{ partner.link }}" class="read-more link-secondary">Website</a></p>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+
+    </div>
+
+  </div>
+
+</section>

@@ -1,0 +1,12 @@
+partners:
+  - name: "Peakwork"
+    desc: "Peakwork is a German Tour-operator dynamic package provider"
+    category: "Travel Network"
+    logo: "peakwork.jpg"
+    link: http://peakwork.com
+
+  - name: "Midoco"
+    desc: "Midoco is the leading mid/backoffice travel solution for European TMCs"
+    category: "Mid/Back-office"
+    logo: "midoco.jpg"
+    link: http://midoco.de
