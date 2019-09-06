@@ -101,3 +101,39 @@
 @import 'sections/footer';
 @import 'sections/header';
 @import 'sections/products';
+
+
+.partners{
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.partners-list__item:before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: #E7E7E9;
+    margin-left: -0.5px;
+}
+
+.partners-list__item:nth-child(3n+1):before {
+    display: none;
+}
+
+.partners-logo {
+    vertical-align: middle;
+    margin-bottom: 15px;
+    min-height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+
+.partners-helper {
+    display: inline-block;
+    vertical-align: middle;
+}
