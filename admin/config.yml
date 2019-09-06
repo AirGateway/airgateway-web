@@ -41,6 +41,21 @@ collections:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Date", name: "date", widget: "string"}
               - {label: "Image", name: "image", widget: "image"}
+      - label: Partners
+        name: partners
+        file: _data/partners.yml
+        description: Partners
+        fields:
+          - name: partners
+            label: Partners
+            widget: list
+            create: true
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Description", name: "desc", widget: "string"}
+              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Logo", name: "logo", widget: "image"}
+              - {label: "Link", name: "link", widget: "string"}
       - label: Updates
         name: updates
         file: _data/updates.yml
