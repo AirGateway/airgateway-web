@@ -1,12 +1,12 @@
 ---
-title: AirGateway granted with IATA NDC Certification level 4
+title: AirGateway granted with the IATA NDC Certification level 4
 date: '2019-09-30'
 post-date: Sep 2019
 author: admin
 published: true
 img-cover: /img/ndc-certified_level4_rgb.png
 img-cover_2x: /img/ndc-certified_level4_rgb.png
-img: /img/iata-ndc_certified_airgateway-gmbh-level4-export.png
+img: /img/ndc-certified_level4_rgb.png
 category: grants
 layout: post
 entry: >-
