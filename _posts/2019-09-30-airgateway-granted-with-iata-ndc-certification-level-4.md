@@ -17,11 +17,11 @@ entry: >-
 ---
 We are glad to share that we have been granted with IATA NDC Certification Level 4 as an aggregator due to our dual API and Agent Desktop capabilities including servicing, post-booking ancillaries selling and handling airline disruption notifications.
 
+![NDC certificate](/img/iata-ndc_certified_airgateway-gmbh-level4-export.png)
+
 Very special thanks to our deployment partners Farelogix Inc., ATPCO, and SITA for working closely with us on this relevant achievement.
 
 We will continue growing our platform capabilities as well as the number of connected providers (airlines) currently counting +20 airlines.
-
-![NDC certificate](/img/iata-ndc_certified_airgateway-gmbh-level4-export.png)
 
 [See IATA NDC Registry entry](https://www.iata.org/whatwedo/airline-distribution/ndc/Pages/company.aspx?c=106)
 
