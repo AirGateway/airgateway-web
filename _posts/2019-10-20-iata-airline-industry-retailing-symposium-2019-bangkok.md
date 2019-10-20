@@ -4,8 +4,8 @@ date: '2019-10-20'
 post-date: Oct 19
 author: admin
 published: true
-img-cover: /img/airs2019-card-jorge-diaz-v2.jpg
-img-cover_2x: /img/airs2019-card-jorge-diaz-v2.jpg
+img-cover: /img/iataairlineindustryretailingsymposium2019.png
+img-cover_2x: /img/iataairlineindustryretailingsymposium2019.png
 img: /img/airs2019-card-jorge-diaz-v2.jpg
 category: events
 layout: post
