@@ -6,7 +6,7 @@ author: admin
 published: true
 img-cover: /img/iataairlineindustryretailingsymposium2019.png
 img-cover_2x: /img/iataairlineindustryretailingsymposium2019.png
-img: /img/airs2019-card-jorge-diaz-v2.jpg
+img: /img/iataairlineindustryretailingsymposium2019.png
 category: events
 layout: post
 entry: >-
