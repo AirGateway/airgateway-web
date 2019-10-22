@@ -81,6 +81,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (= 2.0.2)
   jekyll
   jekyll-admin
 
