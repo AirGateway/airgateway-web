@@ -15,6 +15,7 @@
   &__item{
     text-align: center;
     margin-bottom: 50px;
+    padding: 0 50px;
   }
   &__icon{
     font-size: 120px;
@@ -42,5 +43,8 @@
         border-radius: 50%;
       }
     }
+  }
+  &__links{
+    margin-top: 50px;
   }
 }

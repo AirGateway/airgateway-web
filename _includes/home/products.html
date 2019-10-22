@@ -10,7 +10,7 @@
     <div class="row">
       <ul class="products-list">
         {% for product in site.data.products.products %}
-        <li class="col-sm-4 products-list__item">
+        <li class="col-sm-6 products-list__item">
           <i class="{{ product.icon }} products-list__icon"></i>
           <h4 class="products-list__heading">{{ product.name }}</h4>
           <p class="products-list__description" data-match-height="products-list-description">{{ product.desc }}</p>
@@ -20,6 +20,13 @@
             <li class="products-list__features__item">{{ feature }}</li>
             {% endfor %}
           </ul>
+          <ul class="products-list__links">
+            <h3>Related Links</h3>
+            {% for link in product.links %}
+            {{% link %}}
+            <li class="products-list__links__item"><a target="blank" href="{{ link.url }}">{{ link.text }}</a></li>
+            {% endfor %}
+          </ul>
         </li>
         {% endfor %}
       </ul>
@@ -27,7 +34,7 @@
 
     <section id="bookingpad" class="content-section main-product">
         <div class="btn-toolbar">
-            <h2>Bookingpad, our agent desktop solution for NDC</h2>
+            <h2>Bookingpad, our Web-based agent desktop solution for NDC</h2>
             <br/>
             <p>
               <img src="/img/bookingpad-screenshot.png" alt="Bookingpad Travel Agent Desktop" width="100%">
@@ -36,7 +43,7 @@
                 We have recently launched our agent desktop front-end solution for booking NDC content<br/> with the largest number of NDC-enabled airlines integrated in one single platform.
             </p>
             <br/>
-            <a href="https://bookingpad.net/" class="btn btn-primary btn-lg" target="_new">Visit Bookingpad</a>
+            <a href="https://bookingpad.net/" class="btn btn-primary btn-lg" target="_new">Sign-up for Bookingpad</a>
           </div>
     </section>
 
