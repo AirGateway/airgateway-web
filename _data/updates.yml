@@ -11,12 +11,6 @@ updates:
     text: >-
       We have added British Airways and Iberia NDC APIs (IAG group) to our
       Airlines portfolio.
-  - date: August 2016
-    heading: AERTiCKET to use our NDC Gateway Aggregation
-    link: /blog/agreements/aerticket-to-use-our-ndc-gateway-aggregation.html
-    text: >-
-      AERTiCKET, the biggest air-travel retailer in Germany, will be integrating
-      with our NDC Gateway.
   - date: January 2017
     heading: AirGateway selected to exhibit in the Travel Technology Europe Launchpad
     link: >-
@@ -57,8 +51,16 @@ updates:
       AirGateway raised its seed round to advance its product portfolio and
       operations.
   - date: March 2019
-    heading: AirGateway launches Bookingpad, its agent desktop solution for NDC content.
+    heading: >-
+      AirGateway launches Bookingpad, its agent desktop solution for NDC
+      content.
     link: >-
       /blog/products/bookingpad-our-new-ndc-ready-frontend-agency-booking-software.html
     text: >-
-      AirGateway launches Bookingpad, its agent desktop solution for NDC content.
+      AirGateway launches Bookingpad, its agent desktop solution for NDC
+      content.
+  - date: Sep 19
+    heading: AirGateway gets its first TMC agreement in UK
+    link: >-
+      https://airgateway.com/blog/partnerships/airgateway-gmbh-and-fello-travel-ltd-announce-ndc-partnership.html
+    text: ''
