@@ -31,9 +31,8 @@ products:
   - 
     name: Web NDC Agency Desktop Tool
     desc: >-
-      Our NDC Analytics suite provides a better view and understanding on your
-      NDC Channel. It's flexible and customizable to track any relevant KPI for
-      your business through your live NDC channel.
+      Our NDC Agency Desktop Tool is an end-to-end solution for NDC ready to be used by any certified IATA agency in the World.
+      Currently provides access to more than 25 NDC-enabled airlines granting access to their best deals by avoiding GDS Surchanges and allowing ancilliary-based revenues.
     features:
       - NDC-enabled real-time shopping aggregation WEB Application GUI.
       - NDC vendor & version agnostic aggregation. Normalization and homogenization of NDC contents.
