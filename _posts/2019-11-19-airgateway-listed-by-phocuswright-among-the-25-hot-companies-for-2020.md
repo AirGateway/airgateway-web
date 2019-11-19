@@ -23,5 +23,5 @@ We aim to match the expectations and make 2020 a great year in terms of bringing
 
 Always happy to discuss how we can help your travel agency on accessing the new generation of airline distribution.
 
-Feel free to ping us!\
+Feel free to ping us!
 contact@airgateway.com
