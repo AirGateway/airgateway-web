@@ -4,8 +4,8 @@ date: '2019-11-19'
 post-date: Nov 19
 author: admin
 published: true
-img-cover: /img/phocuswire25hotstartups2020_770x126.png
-img-cover_2x: /img/phocuswire25hotstartups2020_770x126.png
+img-cover: /img/blog-hot-25-startups-2020.png
+img-cover_2x: /img/blog-hot-25-startups-2020.png
 img: /img/phocuswire25hotstartups2020_770x126.png
 category: grants
 layout: post
