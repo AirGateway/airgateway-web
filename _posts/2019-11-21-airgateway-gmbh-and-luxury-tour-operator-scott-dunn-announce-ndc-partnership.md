@@ -12,7 +12,7 @@ layout: post
 entry: "\LAirGateway GmbH, a German B2B airline distribution company, and Scott Dunn , an international luxury tour operator have signed a partnership. Under this agreement AirGateway will provide Scott Dunn with access to NDC Content from 20+ carriers."
 ---
 
-November 20, 2019
+_November 20, 2019_
 
 ** AirGateway GmbH**, a German B2B airline distribution company, and **Scott Dunn** , an international luxury tour operator  have signed a partnership. Under this agreement AirGateway will provide Scott Dunn  with access to NDC Content from 20+ carriers.
 
