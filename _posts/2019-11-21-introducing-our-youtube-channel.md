@@ -20,8 +20,6 @@ We are launching our own Youtube channel where we will be posting video-tutorial
 
 As an introduction we have released a sneak peek video of  [**Bookingpad**](https://bookingpad.net/), our NDC-enabled web agent desktop booking tool.
 
-```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X4gJ9nrSYAs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
 
 You can now subscribe to [our Youtube channel](https://www.youtube.com/channel/UCmwFyV57gsV6OOL5j98qUTQ) or so that we will be pushing new screencasts as we add relevant features to our platform and products.
