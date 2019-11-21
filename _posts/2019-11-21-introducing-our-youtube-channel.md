@@ -3,9 +3,9 @@ title: Introducing our Youtube channel
 date: '2019-11-20'
 post-date: Nov 19
 author: admin
-published: true
-img-cover: /img/bookingpad_airgateeway_screencast_splash.png
-img-cover_2x: /img/bookingpad_airgateeway_screencast_splash.png
+published: false
+img-cover: /img/airgateway_-_youtube_channel_frontpage.png
+img-cover_2x: /img/airgateway_-_youtube_channel_frontpage.png
 img: /img/airgateway_-youtube_header.png
 category: announcements
 layout: post
