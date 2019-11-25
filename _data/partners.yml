@@ -2,7 +2,7 @@ partners:
 
   - name: "Orchestra"
     desc: "Orchestra is a tourism tech-provider"
-    category: "Booking Tool"
+    category: "Booking Tool/Booking Engine"
     logo: "orchestra.png"
     link: https://orchestra.com
 
@@ -13,7 +13,25 @@ partners:
     link: http://peakwork.com
 
   - name: "Midoco"
-    desc: "Midoco is the leading mid/backoffice travel solution for European TMCs"
+    desc: "Midoco is a leading mid/backoffice solution for European TMCs"
     category: "Mid/Back-office"
     logo: "midoco.jpg"
-    link: http://midoco.de
+    link: https://midoco.de
+
+  - name: "Procon Solutions"
+    desc: "Procon  Solution is a mid/backoffice solution for travel agencies based in Denmark targeting the northern european markets"
+    category: "Mid/Back-office"
+    logo: "procon.png"
+    link: https://www.proconsolution.com/
+  
+  - name: "TravelLoop"
+    desc: "TravelLoop is a leading self booking tool solution based in Spain targeting spanish and portuguese-speaking markets"
+    category: "Booking Tool/Booking Engine"
+    logo: "travelloop.jpg"
+    link: https://www.travelloop.com/
+
+  - name: "Beroni"
+    desc: "Beroni is a Booking Tool solutions provider for the TMCs industry in Spain"
+    category: "Booking Tool/Booking Engine"
+    logo: "beroni.png"
+    link: http://beroni.com
