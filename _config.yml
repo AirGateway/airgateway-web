@@ -32,11 +32,11 @@ sass:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/AirGtwy
+    url: https://twitter.com/AirGateway
   - title: github
     url: https://github.com/AirGateway
   - title: linkedin
-    url: https://www.linkedin.com/company/10609446/
+    url: https://linkedin.com/company/AirGateway
 
 # Products
 # products:
