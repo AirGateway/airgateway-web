@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 col-md-push-4">
+        <ul class="list-inline site-footer__social">
+          {% for network in site.social %}
+          <li>
+            <a href="{{ network.url }}"><i class="i-agw-{{ network.title }}"></i></a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-md-4 col-md-push-4">
+        <ul class="list-inline site-footer__quicklinks">
+          <li>
+            <a href="/impressum.html" class="" data-toggle="modal" data-target="#modal-body" data-whatever="@impressum">Impressum</a>
+          </li>
+          <li>
+            <a href="/datenschutzerklarung.html" class="" data-toggle="modal" data-target="#modal-body" data-whatever="@datenschutzerklarung">Datenschutzerklarung</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 col-md-pull-8">
+          Copyright &copy; {{ site.company }} 2019
+      </div>
+
+    </div>
+  </div>
+</footer>

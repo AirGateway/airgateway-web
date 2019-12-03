@@ -15,7 +15,7 @@ google_analytics: "UA-77281199-1"
 excerpt_separator: <!--more-->
 markdown: kramdown
 permalink: /blog/:categories/:title.html
-include: 
+include:
   - _redirects
 
 # SASS
@@ -124,7 +124,7 @@ social:
 #   - heading: Lufthansa Group added to our NDC aggregation platform
 #     text: Lufthansa, Swiss, Austrian Airlines, and Brussels Airlines are now among the airlines available in our NDC platform for travel agents to connect to
 #     date: June 2017
-  
+
 
 
 #

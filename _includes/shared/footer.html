@@ -1,32 +1,58 @@
 <footer class="site-footer">
   <div class="container">
-    <div class="row">
-
-      <div class="col-md-4 col-md-push-4">
-        <ul class="list-inline site-footer__social">
-          {% for network in site.social %}
-          <li>
-            <a href="{{ network.url }}"><i class="i-agw-{{ network.title }}"></i></a>
-          </li>
-          {% endfor %}
-        </ul>
+    <div class="footerGrid">
+      <div class="footerGridItem">
+        <div class="footerLogo">
+          <img src="/img/logo-airgateway-footer.svg" alt="">
+          <h5>Enabling the NDC age for travel agencies</h5>
+        </div>
+        <div class="footerSocial">
+          <ul class="list-inline site-footer__social">
+            <li>
+              <a href="https://github.com/AirGateway">
+                <img src="/img/logo-github.svg" alt="AirGateway GitHub">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/AirGateway">
+                <img src="/img/logo-twitter.svg" alt="AirGateway Twitter">
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/company/AirGateway">
+                <img src="/img/logo-linkedin.svg" alt="AirGateway LinkedIn">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="col-md-4 col-md-push-4">
-        <ul class="list-inline site-footer__quicklinks">
-          <li>
-            <a href="/impressum.html" class="" data-toggle="modal" data-target="#modal-body" data-whatever="@impressum">Impressum</a>
-          </li>
-          <li>
-            <a href="/datenschutzerklarung.html" class="" data-toggle="modal" data-target="#modal-body" data-whatever="@datenschutzerklarung">Datenschutzerklarung</a>
-          </li>
-        </ul>
+      <div class="footerGridItem">
+        <div class="footerBadges">
+          <ul>
+            <li>
+              <img src="/img/badge-ndc-l4.png" alt="">
+            </li>
+            <li>
+              <img src="/img/badge-psi-dss.png" alt="">
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="col-md-4 col-md-pull-8">
-          Copyright &copy; {{ site.company }} 2019
+      <div class="footerBlurb">
+        <div class="footerCopy">Copyright &copy; 2019 <a href="/">{{ site.company }}</a></div>
+        <div class="footerLinks">
+          <ul>
+            <li>
+              <a href="/impressum.html" class="" data-toggle="modal" data-target="#modal-body"
+                data-whatever="@impressum">Impressum</a>
+            </li>
+            <li>
+              <a href="/datenschutzerklarung.html" class="" data-toggle="modal" data-target="#modal-body"
+                data-whatever="@datenschutzerklarung">Datenschutzerklarung</a>
+            </li>
+          </ul>
+        </div>
       </div>
-
     </div>
   </div>
 </footer>
