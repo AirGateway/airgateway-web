@@ -9,13 +9,13 @@ partners:
   - name: "Peakwork"
     desc: "Peakwork is a German Tour-operator dynamic package provider"
     category: "Travel Network"
-    logo: "peakwork.jpg"
+    logo: "peakwork.png"
     link: http://peakwork.com
 
   - name: "Midoco"
     desc: "Midoco is a leading mid/backoffice solution for European TMCs"
     category: "Mid/Back-office"
-    logo: "midoco.jpg"
+    logo: "midoco.png"
     link: https://midoco.de
 
   - name: "Procon Solutions"
@@ -23,7 +23,7 @@ partners:
     category: "Mid/Back-office"
     logo: "procon.png"
     link: https://www.proconsolution.com/
-  
+
   - name: "TravelLoop"
     desc: "TravelLoop is a leading self booking tool solution based in Spain targeting spanish and portuguese-speaking markets"
     category: "Booking Tool/Booking Engine"

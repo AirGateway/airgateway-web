@@ -7,24 +7,26 @@
     </hgroup>
 
     <div class="partners">
-      <ul class="row posts-list">
-      {% for partner in site.data.partners.partners %}
-        <li class="col-sm-4 partners-list__item" data-match-height="partners-list-item">
+      <ul class="partnersGrid">
+        {% for partner in site.data.partners.partners %}
+        <li class="partnersGridItem" data-match-height="partners-list-item">
           <span class="partners-helper"></span>
-          <div class="partners-logo">
-            <img src="/img/partners/{{ partner.logo }}" alt="{{ partner.name }} logo" width="250" />
-          </div>
-          <h3 class="">{{ partner.name }}</h3>
-          <h5 class="">{{ partner.category }}</h5>
-          <div class="">
+          <div class="partnersLogo">
             {% if partner.link != '' %}
-              <p><a href="{{ partner.link }}" class="read-more link-secondary">Website</a></p>
+            <a href="{{ partner.link }}" class="read-more partnersLink"><img src="/img/partners/{{ partner.logo }}"
+                alt="{{ partner.name }} logo" width="250" /></a>
             {% endif %}
           </div>
-        </li>
-      {% endfor %}
-    </ul>
+          <h3>
+            {% if partner.link != '' %}
+            <a href="{{ partner.link }}" class="read-more partnersLink">{{ partner.name }}</a>
+            {% endif %}
+          </h3>
+          <h5>{{ partner.category }}</h5>
 
+        </li>
+        {% endfor %}
+      </ul>
     </div>
 
   </div>

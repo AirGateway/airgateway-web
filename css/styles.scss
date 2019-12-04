@@ -5,135 +5,192 @@
 
 // VARIABLES
 // ----------------------------
-@import  'variables';
+@import "variables";
 
 // UTILS
 // ----------------------------
-@import  'utils/mixins';
-@import  'utils/breakpoints';
-
+@import "utils/mixins";
+@import "utils/breakpoints";
 
 // BOOTSTRAP
 // ----------------------------
 
 // Core variables and mixins
-@import 'bootstrap/variables';
-@import 'bootstrap/mixins';
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
 // Reset and dependencies
-@import 'bootstrap/normalize';
-@import 'bootstrap/print';
+@import "bootstrap/normalize";
+@import "bootstrap/print";
 //@import 'bootstrap/glyphicons';
 
 // Core CSS
-@import 'bootstrap/scaffolding';
-@import 'bootstrap/type';
-@import 'bootstrap/code';
-@import 'bootstrap/grid';
-@import 'bootstrap/tables';
-@import 'bootstrap/forms';
-@import 'bootstrap/buttons';
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
 
 // Components
-@import 'bootstrap/component-animations';
+@import "bootstrap/component-animations";
 //@import 'bootstrap/dropdowns';
 //@import 'bootstrap/button-groups';
 //@import 'bootstrap/input-groups';
-@import 'bootstrap/navs';
-@import 'bootstrap/navbar';
-@import 'bootstrap/breadcrumbs';
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+@import "bootstrap/breadcrumbs";
 //@import 'bootstrap/pagination';
 //@import 'bootstrap/pager';
 //@import 'bootstrap/labels';
 //@import 'bootstrap/badges';
-@import 'bootstrap/jumbotron';
+@import "bootstrap/jumbotron";
 //@import 'bootstrap/thumbnails';
 //@import 'bootstrap/alerts';
 //@import 'bootstrap/progress-bars';
-@import 'bootstrap/media';
+@import "bootstrap/media";
 //@import 'bootstrap/list-group';
 //@import 'bootstrap/panels';
-@import 'bootstrap/responsive-embed';
+@import "bootstrap/responsive-embed";
 //@import 'bootstrap/wells';
-@import 'bootstrap/close';
+@import "bootstrap/close";
 
 // Components w/ JavaScript
-@import 'bootstrap/modals';
+@import "bootstrap/modals";
 //@import 'bootstrap/tooltip';
 //@import 'bootstrap/popovers';
 //@import 'bootstrap/carousel';
 
 // Utility classes
-@import 'bootstrap/utilities';
-@import 'bootstrap/responsive-utilities';
-
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
 
 // VENDOR
 // ----------------------------
 
-
 // BASE
 // ----------------------------
-@import 'base/fonts';
-@import 'base/type';
-@import 'base/scaffolding';
-
+@import "base/fonts";
+@import "base/type";
+@import "base/scaffolding";
 
 // COMPONENTS
 // ----------------------------
-@import 'components/alerts';
-@import 'components/buttons';
-@import 'components/content-section';
-@import 'components/forms';
-@import 'components/icons-font';
-@import 'components/icons-sprite';
-@import 'components/jumbotron';
-@import 'components/links';
-@import 'components/timeline';
-
+@import "components/alerts";
+@import "components/buttons";
+@import "components/content-section";
+@import "components/forms";
+@import "components/icons-font";
+@import "components/icons-sprite";
+@import "components/jumbotron";
+@import "components/links";
+@import "components/timeline";
 
 // SECTIONS
 // ----------------------------
-@import 'sections/about';
-@import 'sections/airlines';
-@import 'sections/blog';
-@import 'sections/contact';
-@import 'sections/footer';
-@import 'sections/header';
-@import 'sections/products';
+@import "sections/about";
+@import "sections/airlines";
+@import "sections/blog";
+@import "sections/contact";
+@import "sections/footer";
+@import "sections/header";
+@import "sections/products";
 
+.partners {
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
 
-.partners{
-    display: block;
-    margin-bottom: 15px;
-    text-align: center;
+  &Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
 
+    @media #{$desktop-up} {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &Item {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 4rem;
+
+      @media #{$desktop-up} {
+        border-right: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 3rem;
+
+        &:nth-child(3),
+        &:nth-child(6) {
+          border-right: none;
+        }
+
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6) {
+          border-bottom: none;
+          padding-top: 3rem;
+        }
+      }
+
+      h3 {
+        margin-bottom: 0;
+      }
+
+      h5 {
+        color: #82828c;
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 0.08rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &Link {
+    font-weight: 600;
+  }
+
+  &Logo {
+    img {
+      filter: grayscale(1);
+      opacity: 0.7;
+
+      &:hover {
+        filter: unset;
+        opacity: 1;
+      }
+    }
+  }
 }
 
 .partners-list__item:before {
-    content: "";
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 1px;
-    height: 100%;
-    background-color: #E7E7E9;
-    margin-left: -0.5px;
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #e7e7e9;
+  margin-left: -0.5px;
 }
 
-.partners-list__item:nth-child(3n+1):before {
-    display: none;
+.partners-list__item:nth-child(3n + 1):before {
+  display: none;
 }
 
 .partners-logo {
-    vertical-align: middle;
-    margin-bottom: 15px;
-    min-height: 150px;
-    line-height: 150px;
-    text-align: center;
+  vertical-align: top;
+  margin-bottom: 15px;
+  min-height: 150px;
+  line-height: 150px;
+  text-align: center;
 }
 
 .partners-helper {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
