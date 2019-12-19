@@ -4,9 +4,9 @@ date: '2019-12-19'
 post-date: Dec 2019
 author: admin
 published: true
-img-cover: /img/umbrella-midoco-airgateway-banner.png
-img-cover_2x: /img/umbrella-midoco-airgateway-banner.png
-img: /img/umbrella-midoco-airgateway-image.png
+img-cover: /img/umbrella-midoco-airgateway-image.png
+img-cover_2x: /img/umbrella-midoco-airgateway-image.png
+img: /img/umbrella-midoco-airgateway-banner.png
 category: partnerships
 layout: post
 entry: >-
