@@ -38,18 +38,18 @@ MIDOCO Holding GmbH, based in Hamburg, provides software for the international t
 
 #### AirGateway GmbH 
 
-Jorge Diaz\
-jd@airgateway.com\
+Jorge Diaz</br>
+jd@airgateway.com</br>
 https://www.airgateway.com
 
 #### MIDOCO
 
-Steffen Faradi\
+Steffen Faradi</br>
 steffen.faradi@midoco.de\
 https://www.midoco.de
 
 #### Umbrella
 
-Helmut Pilz\
+Helmut Pilz</br>
 helmut.pilz@umbrella.ch\
 https://www.umbrella.ch
