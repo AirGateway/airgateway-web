@@ -22,6 +22,8 @@ The connectivity between the systems will allow the seamless automation and down
 
 AirGateway’s CEO and founder Jorge Diaz: “This three-parts collaboration, brings together the three legs of corporate travel, meaning airline content, traveler profiles, and reporting, proving that NDC and direct-distribution strategies are possible, bringing real innovation to the travel distribution industry while enabling a fully-functional channel totally independent of the established GDS-based channel”.
 
+Steffen Faradi, Managing Director of MIDOCO states: “We see MIDOCO as NDC enabler. Our software suite MIDOCO Mid-office and Umbrella Faces are success factors for establishing NDC as booking channel in Travel Management Companies. We enable travel agents to integrate new technology in existing procedures allowing parallel use of booking sources. NDC booking can now be processed easily in the accustomed manner.”
+
 ### About AirGateway
 
 AirGateway GmbH is a Berlin-based B2B airline distribution company connecting airlines with corporate, leisure, offline and online travel agents. AirGateway state-of-the-art technology enables airlines and travel agents to enhance their retailing channels bringing rich content, dynamic pricing, and ancillary services as defined by IATA’s New Distribution Capability standard.
@@ -36,18 +38,18 @@ MIDOCO Holding GmbH, based in Hamburg, provides software for the international t
 
 #### AirGateway GmbH 
 
-Jorge Diaz<br/>
-jd@airgateway.com<br/>
+Jorge Diaz\
+jd@airgateway.com\
 https://www.airgateway.com
 
 #### MIDOCO
 
-Steffen Faradi<br/>
-steffen.faradi@midoco.de<br/>
+Steffen Faradi\
+steffen.faradi@midoco.de\
 https://www.midoco.de
 
 #### Umbrella
 
-Helmut Pilz<br/>
-helmut.pilz@umbrella.ch<br/>
+Helmut Pilz\
+helmut.pilz@umbrella.ch\
 https://www.umbrella.ch
