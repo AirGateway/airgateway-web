@@ -4,9 +4,9 @@ date: '2019-09-16'
 post-date: Sep 19
 author: admin
 published: true
-img-cover: /img/fello-travel-logo.jpg
-img-cover_2x: /img/fello-travel-logo.jpg
-img: /img/fello-travel-logo.jpg
+img-cover: /img/fello_stacked_small_pink_blue.jpg
+img-cover_2x: /img/fello_stacked_small_pink_blue.jpg
+img: /img/fello_stacked_small_pink_blue.jpg
 category: partnerships
 layout: post
 entry: >-
