@@ -1,56 +1,43 @@
 products:
-  - 
-    name: NDC Gateway JSON API
-    desc: >-
-      Our NDC Gateway is a fully NDC-capable aggregated API which enables OTAs, OBTs, CBTs, SCBTs to adopt the NDC standard in a seamless way while saving
-      development times and costs. It's real-time design provides no offer-exiration issues and therefore the highest "bookability" rate.
+  - desc: >-
+      Our NDC Gateway is a fully NDC-capable aggregated API which enables OTAs,
+      OBTs, CBTs, SBTs to adopt the NDC standard in a seamless way while saving
+      development times and costs. It's real-time design provides no
+      offer-exiration issues and therefore the highest "bookability" rate.
     features:
       - NDC-capable real-time shopping aggregation.
-      - NDC vendor & version agnostic aggregation. Normalization and homogenization of NDC contents.
-      - 'Full NDC capabilities: Shopping, Booking, Ticketing, Servicing, Order changes, Order cancelations (when provided by the airline)'
-      - NDC Public, private, negotiated, and corporate fares.
+      - >-
+        NDC vendor & version agnostic aggregation. Normalization and
+        homogenization of NDC contents.
+      - >-
+        Full NDC capabilities: Shopping, Booking, Ticketing, Servicing, Order
+        changes, Order cancelations (when provided by the airline)
+      - 'NDC Public, private, negotiated, and corporate fares.'
       - No GDS surcharge or consolidation hidden fees.
       - On-the-fly multicurrency conversion.
       - Processed and categorized Fare Rules (when provided by the airline).
       - Pre-sale and Post-sale ancilliaries addition/removal to orders.
-      - Order History, comments, and remarks
+      - 'Order History, comments, and remarks'
     icon: i-agw-airplane-o
-    links:
-      -
-        text: Providers & Capabilities Content Table
-        url: https://dev-guides.airgateway.net/providers/
-      -
-        text: Latest API version Documentation (v1.1)
-        url: https://api.airgateway.net/v1.1/
-      -
-        text: AirGateway Developer's Guide
-        url: https://dev-guides.airgateway.net/providers/
-      - 
-        text: Schedule a call 
-        url: https://calendly.com/airgateway
-  - 
-    name: Web NDC Agency Desktop Tool
-    desc: >-
-      Our NDC Agency Desktop Tool is an end-to-end solution for NDC ready to be used by any certified IATA agency in the World.
-      Currently provides access to more than 25 NDC-enabled airlines granting access to their best deals by avoiding GDS Surchanges and allowing ancilliary-based revenues.
+    name: NDC Gateway JSON API
+  - desc: >-
+      Our NDC Agency Desktop Tool is an end-to-end solution for NDC ready to be
+      used by any certified IATA agency in the World. Currently provides access
+      to more than 25 NDC-enabled airlines granting access to their best deals
+      by avoiding GDS Surchanges and allowing ancilliary-based revenues.
     features:
       - NDC-enabled real-time shopping aggregation WEB Application GUI.
-      - NDC vendor & version agnostic aggregation. Normalization and homogenization of NDC contents.
-      - 'Full NDC capabilities: Shopping, Booking, Ticketing, Servicing, Order changes, Order cancelations (when provided by the airline).'
-      - NDC Public, private, negotiated, and corporate fares.
+      - >-
+        NDC vendor & version agnostic aggregation. Normalization and
+        homogenization of NDC contents.
+      - >-
+        Full NDC capabilities: Shopping, Booking, Ticketing, Servicing, Order
+        changes, Order cancelations (when provided by the airline).
+      - 'NDC Public, private, negotiated, and corporate fares.'
       - No GDS surcharge or consolidation hidden fees.
       - On-the-fly multicurrency conversion.
       - Displayed and categorized Fare Rules (when provided by the airline)
       - Pre-sale and Post-sale ancilliaries addition/removal to orders
-      - Order History, comments, and remarks
+      - 'Order History, comments, and remarks'
     icon: i-agw-graph-o
-    links:
-      -
-        text: Providers & Capabilities Content Table
-        url: https://dev-guides.airgateway.net/providers/
-      -
-        text: Registration Form
-        url: https://docs.google.com/forms/d/1hYsb6t_g-OWrKxjxOGbZi_K8cFicGkEMVIiYWz6VPJA/
-      -
-        text: Schedule a Demo
-        url: https://calendly.com/bookingpad-demo
+    name: Web NDC Agency Desktop Tool
