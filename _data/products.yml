@@ -3,7 +3,7 @@ products:
       Our NDC Gateway is a fully NDC-capable aggregated API which enables OTAs,
       OBTs, CBTs, SBTs to adopt the NDC standard in a seamless way while saving
       development times and costs. It's real-time design provides no
-      offer-exiration issues and therefore the highest "bookability" rate.
+      offer-expiration issues and therefore the highest "bookability" rate.
     features:
       - NDC-capable real-time shopping aggregation.
       - >-
