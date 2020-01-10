@@ -35,3 +35,21 @@ partners:
     category: "Booking Tool/Booking Engine"
     logo: "beroni.png"
     link: http://beroni.com
+
+  - name: "mTrip"
+    desc: "mTrip offers custom mobile applications to tour operators, travel agencies, TMC, OTA, cruises and MICE agencies."
+    category: ""
+    logo: "logo-mtrip.svg"
+    link: "https://www.mtrip.com/"
+
+  - name: "eGlobalfares"
+    desc: "eGlobalFares offers multi-GDS suite of applications and technologies for corporate and leisure travel management"
+    category: "Booking Tool/Booking Engine"
+    logo: "logo-eGlobalFares.png"
+    link: "https://www.eglobalfares.com"
+
+  - name: "Galor"
+    desc: "Galor is a leading supplier of travel technology, boasting a client base of over 600 customers and innumerable users in more than 15 countries around the globe."
+    category: "Booking Tool/Booking Engine"
+    logo: "logo-galor.png"
+    link: "https://www.eglobalfares.com"
