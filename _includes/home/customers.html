@@ -13,13 +13,13 @@
           <span class="partners-helper"></span>
           <div class="partnersLogo">
             {% if customer.link != '' %}
-            <a href="{{ customer.link }}" class="read-more customersLink"><img src="/img/partners/{{ customer.logo }}"
+            <a href="{{ customer.link }}" class="read-more customersLink"><img src="/img/customers/{{ customer.logo }}"
                 alt="{{ customer.name }} logo" width="250" /></a>
             {% endif %}
           </div>
           <h3>
             {% if customer.link != '' %}
-            <a href="{{ customer.link }}" class="read-more customersLink">{{ customer.name }}</a>
+            <a href="{{ customer.link }}" class="read-more customersLink">{{ customer.name }}</a> <span class="ccode">({{ customer.countrycode }})</span>
             {% endif %}
           </h3>
           <h5>{{ customer.category }}</h5>
