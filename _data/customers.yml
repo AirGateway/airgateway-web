@@ -1,0 +1,29 @@
+customers:
+  - name: Fello Travel
+    countrycode: UK
+    link: 'https://fello.co.uk/'
+    logo: fello.svg
+  - name: Scott Dunn
+    countrycode: UK
+    link: 'https://www.scottdunn.com/'
+    logo: scott-dunn.svg
+  - name: Dialibre
+    countrycode: ES
+    link: 'http://www.dialibre.com/'
+    logo: dialibre.png
+  - name: Bives Tour
+    countrycode: ES
+    link: 'http://www.bivestour.com/'
+    logo: bivestour.png
+  - name: Graiver Travel
+    countrycode: IL
+    link: 'https://www.graivertravel.com/'
+    logo: graiver.png
+  - name: Serendipity Travel
+    countrycode: ZA
+    link: 'https://serendipitytravel.co.za/'
+    logo: serendipity-travel.png
+  - name: Consultia Travel
+    countrycode: ES
+    link: 'https://www.consultiatravel.es/'
+    logo: consultia.svg

@@ -91,6 +91,7 @@
 // ----------------------------
 @import "sections/about";
 @import "sections/airlines";
+@import "sections/customers";
 @import "sections/blog";
 @import "sections/contact";
 @import "sections/footer";
@@ -195,4 +196,9 @@
 .partners-helper {
   display: inline-block;
   vertical-align: middle;
+}
+
+.ccode {
+  font-weight: 400;
+  color: #82828c;
 }
