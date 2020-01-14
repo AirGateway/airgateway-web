@@ -56,3 +56,20 @@
     </div>
   </div>
 </footer>
+
+<script src="/js/siema.min.js"></script>
+<script>
+  const mySiema = new Siema({
+    perPage: {
+      480: 2,
+      768: 3,
+      1024: 4,
+    },
+    startIndex: 0,
+    duration: 320,
+    easing: 'cubic-bezier(.14,.27,.32,.84)',
+    loop: true,
+  });
+  // listen for keydown event
+  setInterval(() => mySiema.next(), 3000)
+</script>
