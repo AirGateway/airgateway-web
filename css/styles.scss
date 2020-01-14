@@ -202,3 +202,33 @@
   font-weight: 400;
   color: #82828c;
 }
+
+.customers {
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+
+  &Item {
+    h3 {
+      margin-bottom: 0;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  &Link {
+    font-weight: 600;
+  }
+
+  &Logo {
+    img {
+      filter: grayscale(1);
+      opacity: 0.7;
+
+      &:hover {
+        filter: unset;
+        opacity: 1;
+      }
+    }
+  }
+}
