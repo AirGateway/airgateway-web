@@ -1,0 +1,57 @@
+customers:
+  - category: Booking Engine
+    desc: Orchestra is a tourism tech-provider
+    link: 'https://orchestra.com'
+    logo: orchestra.png
+    name: Orchestra
+  - category: Travel Network
+    desc: Peakwork is a German Tour-operator dynamic package provider
+    link: 'http://peakwork.com'
+    logo: peakwork.png
+    name: Peakwork
+  - category: Mid/Back-office
+    desc: Midoco is a leading mid/backoffice solution for European TMCs
+    link: 'https://midoco.de'
+    logo: midoco.png
+    name: Midoco
+  - category: Mid/Back-office
+    desc: >-
+      Procon  Solution is a mid/backoffice solution for travel agencies based in
+      Denmark targeting the northern european markets
+    link: 'https://www.proconsolution.com/'
+    logo: procon.png
+    name: Procon Solutions
+  - category: Booking Tool
+    desc: >-
+      TravelLoop is a leading self booking tool solution based in Spain
+      targeting spanish and portuguese-speaking markets
+    link: 'https://www.travelloop.com/'
+    logo: travelloop.jpg
+    name: TravelLoop
+  - category: Booking Tool
+    desc: Beroni is a Booking Tool solutions provider for the TMCs industry in Spain
+    link: 'http://beroni.com'
+    logo: beroni.png
+    name: Beroni
+  - category: Traveler Management
+    desc: >-
+      mTrip offers custom mobile applications to tour operators, travel
+      agencies, TMC, OTA, cruises and MICE agencies.
+    link: 'https://www.mtrip.com/'
+    logo: logo-mtrip.svg
+    name: mTrip
+  - category: Fares Marketplace
+    desc: >-
+      eGlobalFares offers multi-GDS suite of applications and technologies for
+      corporate and leisure travel management
+    link: 'https://www.eglobalfares.com'
+    logo: logo-eGlobalFares.png
+    name: eGlobalfares
+  - category: Mid/Back-office
+    desc: >-
+      Galor is a leading supplier of travel technology, boasting a client base
+      of over 600 customers and innumerable users in more than 15 countries
+      around the globe.
+    link: 'https://www.eglobalfares.com'
+    logo: logo-galor.png
+    name: Galor

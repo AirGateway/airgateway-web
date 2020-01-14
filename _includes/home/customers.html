@@ -1,0 +1,34 @@
+<section id="customers" class="content-section">
+
+  <div class="container">
+
+    <hgroup>
+      <h2>Customers</h2>
+    </hgroup>
+
+    <div class="partners">
+      <ul class="partnersGrid">
+        {% for customer in site.data.customers.customers %}
+        <li class="partnersGridItem" data-match-height="customers-list-item">
+          <span class="partners-helper"></span>
+          <div class="partnersLogo">
+            {% if customer.link != '' %}
+            <a href="{{ customer.link }}" class="read-more customersLink"><img src="/img/partners/{{ customer.logo }}"
+                alt="{{ customer.name }} logo" width="250" /></a>
+            {% endif %}
+          </div>
+          <h3>
+            {% if customer.link != '' %}
+            <a href="{{ customer.link }}" class="read-more customersLink">{{ customer.name }}</a>
+            {% endif %}
+          </h3>
+          <h5>{{ customer.category }}</h5>
+
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+
+</section>
