@@ -1,17 +1,17 @@
-#customers{
+#customers {
   padding: 20px 0;
 }
 
-.customers-list{
+.customers-list {
   margin-bottom: 0;
   padding-left: 0;
   list-style-type: none;
-  img{
+  img {
     @extend .img-responsive;
     @include transition(all 0.25s ease-out);
     margin: 0 auto;
     &:hover,
-    &:focus{
+    &:focus {
       opacity: 1;
     }
   }
