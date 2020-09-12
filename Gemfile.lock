@@ -88,5 +88,8 @@ DEPENDENCIES
   jekyll
   jekyll-admin
 
+RUBY VERSION
+   ruby 2.5.0p0
+
 BUNDLED WITH
    2.1.4
