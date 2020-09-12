@@ -3,7 +3,7 @@ products:
     name: NDC Gateway JSON API
     desc: >-
       Our NDC Gateway is a fully NDC-capable aggregated API which enables OTAs, OBTs, CBTs, SCBTs to adopt the NDC standard in a seamless way while saving
-      development times and costs. It's real-time design provides no offer-exiration issues and therefore the highest "bookability" rate.
+      development times and costs. It's real-time design provides no offer-expiration issues and therefore the highest "bookability" rate.
     features:
       - NDC-capable real-time shopping aggregation.
       - NDC vendor & version agnostic aggregation. Normalization and homogenization of NDC contents.
@@ -32,7 +32,7 @@ products:
     name: Web NDC Agency Desktop Tool
     desc: >-
       Our NDC Agency Desktop Tool is an end-to-end solution for NDC ready to be used by any certified IATA agency in the World.
-      Currently provides access to more than 25 NDC-enabled airlines granting access to their best deals by avoiding GDS Surchanges and allowing ancilliary-based revenues.
+      Currently provides access to more than 25 NDC-enabled airlines granting access to their best deals by avoiding GDS Surcharges and enabling extra revenues by selling airline ancillaries.
     features:
       - NDC-enabled real-time shopping aggregation WEB Application GUI.
       - NDC vendor & version agnostic aggregation. Normalization and homogenization of NDC contents.
