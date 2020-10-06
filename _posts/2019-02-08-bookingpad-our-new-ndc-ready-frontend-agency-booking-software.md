@@ -14,7 +14,7 @@ entry: >-
   share in advance a sneak peek of what it will be our first NDC-ready
   user-faced product for travel agencies and travel professionals.
 ---
-[Bookingpad](http://bookingpad.net) will be officially launched on the next 1st March, but we wanted to share in advance a sneak peek of what it will be our first NDC-ready user-faced product for travel agencies and travel professionals.
+[Bookingpad](http://bookingpad.info) will be officially launched on the next 1st March, but we wanted to share in advance a sneak peek of what it will be our first NDC-ready user-faced product for travel agencies and travel professionals.
 
 ![Bookingpad screenshot](/img/bookingpad-screenshot.png)
 
@@ -31,6 +31,6 @@ Our Front-end implementation provides:
 
 We will be soon launching online demos and screencasts displaying all features and use cases.
 
-Keep tuned for more by signing up in our [Bookingpad newsletter](https://bookingpad.net/#register-form). 
+Keep tuned for more by signing up in our [Bookingpad newsletter](https://bookingpad.info/#register-form). 
 
-Visit the product page here: [Bookingpad.net](http://bookingpad.net).
+Visit the product page here: [bookingpad.info](http://bookingpad.info).

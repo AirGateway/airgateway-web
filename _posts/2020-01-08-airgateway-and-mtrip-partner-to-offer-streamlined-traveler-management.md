@@ -18,6 +18,6 @@ We are happy to announce that have completed successfully the technical integrat
 
 The Montreal-based company offers a range of traveler management solutions that can now play smoothly with reservations made through our advanced NDC-ready Booking Platform.
 
-This integration applies to both of our [NDC Aggregated API](https://api.airgateway.net/v1.1/) Product and our [Agent Desktop Solution](https://bookingpad.net/).
+This integration applies to both of our [NDC Aggregated API](https://api.airgateway.net/v1.1/) Product and our [Agent Desktop Solution](https://bookingpad.info/).
 
 If you want to learn more about how your travel agency can take advantage of this collaboration feel free to [contact us to schedule a demo](https://calendly.com/airgateway).
