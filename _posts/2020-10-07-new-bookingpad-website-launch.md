@@ -17,12 +17,9 @@ entry: >-
   build their GDS-independent technology strategy for the next generation of
   managed corporate travel.
 ---
-Brand new website for Bookingpad!
-
 ![Bookingpad brand newe Website](/img/bookingpad___bookingpad_is_the_most_advanced_ndc-ready_booking_tool_for_tmcs.png)
 
-
-
+\
 We have taken the time of the pandemic to review, rebuild, and relaunch our value-proposal for the TMCs that are looking for a new partner with whom to build their GDS-independent technology strategy for the next generation of managed corporate travel.
 
 For this purpose we have focused our efforts on three levels:
@@ -37,6 +34,6 @@ You can here get an overview of our pricing plans attending to TMCs sizing and r
 
 ![Bookingpad Pricing Plans](/img/bookingpad___bookingpad_is_the_most_advanced_ndc-ready_booking_tool_for_travel_agents_.png)
 
-Please visit our Brand New Website anytime here!
+Feel free to visit our Brand New Bookingpad Website here below.
 
 [Bookingpad.info](https://bookingpad.info/)
