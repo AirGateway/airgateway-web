@@ -4,10 +4,8 @@ date: '2020-10-07'
 post-date: Oct 2020
 author: admin
 published: true
-img-cover: >-
-  /img/bookingpad___bookingpad_is_the_most_advanced_ndc-ready_booking_tool_for_tmcs.png
-img-cover_2x: >-
-  /img/bookingpad___bookingpad_is_the_most_advanced_ndc-ready_booking_tool_for_tmcs.png
+img-cover: ''
+img-cover_2x: ''
 img: >-
   /img/bookingpad___bookingpad_is_the_most_advanced_ndc-ready_booking_tool_for_tmcs.png
 category: news
