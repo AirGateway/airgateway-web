@@ -81,9 +81,9 @@ collections:
       - {label: "Post Date", name: "post-date", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Published", name: "published", widget: "boolean"}
-      - {label: "Cover Image", name: "img-cover", widget: "image"}
-      - {label: "Cover Image 2x", name: "img-cover_2x", widget: "image"}
-      - {label: "Image", name: "img", widget: "image"}
+      - {label: "Cover Image", name: "img-cover", widget: "image", required: false}
+      - {label: "Cover Image 2x", name: "img-cover_2x", widget: "image", required: false}
+      - {label: "Image", name: "img", widget: "image", required: false}
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Entry", name: "entry", widget: "text"}
