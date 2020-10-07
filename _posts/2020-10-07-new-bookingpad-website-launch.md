@@ -8,7 +8,8 @@ img-cover: >-
   /img/bookingpad___bookingpad_is_the_most_advanced_ndc-ready_booking_tool_for_tmcs.png
 img-cover_2x: >-
   /img/bookingpad___bookingpad_is_the_most_advanced_ndc-ready_booking_tool_for_tmcs.png
-img: /img/bookingpad___new_website.png
+img: >-
+  /img/bookingpad___bookingpad_is_the_most_advanced_ndc-ready_booking_tool_for_tmcs.png
 category: news
 layout: post
 entry: >-
