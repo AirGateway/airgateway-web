@@ -1,5 +1,5 @@
 ---
-title: New Bookingpad Website launch
+title: New Bookingpad Website launched
 date: '2020-10-07'
 post-date: Oct 2020
 author: admin
