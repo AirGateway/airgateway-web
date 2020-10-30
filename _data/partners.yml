@@ -21,18 +21,6 @@ partners:
     link: 'https://www.proconsolution.com/'
     logo: procon.png
     name: Procon Solutions
-  - category: Booking Tool
-    desc: >-
-      TravelLoop is a leading self booking tool solution based in Spain
-      targeting spanish and portuguese-speaking markets
-    link: 'https://www.travelloop.com/'
-    logo: travelloop.jpg
-    name: TravelLoop
-  - category: Booking Tool
-    desc: Beroni is a Booking Tool solutions provider for the TMCs industry in Spain
-    link: 'http://beroni.com'
-    logo: beroni.png
-    name: Beroni
   - category: Traveler Management
     desc: >-
       mTrip offers custom mobile applications to tour operators, travel
