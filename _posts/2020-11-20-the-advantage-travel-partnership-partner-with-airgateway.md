@@ -10,15 +10,11 @@ img: /img/atp-agw.png
 category: partnerships
 layout: post
 entry: >-
-  London, XX November 2020 – The ​Advantage Travel Partnership, the UK’s largest
-  independent travel agent and travel management company (TMC) consortium, has
-  announced a partnership with AirGateway GmbH – a German B2B airline
-  distribution company, to provide members complimentary New Distribution
-  Capability (NDC) ​access to additional airline content.
+  Our end-to-end solution for NDC ​(Bookingpad) will be available to all
+  Advantage members for no upfront cost.
 ---
-THE ADVANTAGE TRAVEL PARTNERSHIP PARTNERS WITH AIRGATEWAY
+The end-to-end solution for NDC ​will be available to Advantage members for no upfront cost.
 
-The end-to-end solution for NDC ​will be available to Advantage members for no upfront cost
 London, XX November 2020 – The ​Advantage Travel Partnership, the UK’s largest independent travel agent and travel management company (TMC) consortium, has announced a partnership with AirGateway GmbH – a German B2B airline distribution company, to provide members complimentary New Distribution Capability (NDC) ​access to additional airline content.
 There are no initial outlay costs for Advantage members, allowing members to have access to as much content as possible, to ensure they remain competitive and agile when the market returns.
 AirGateway’s NDC Agency Desktop Tool, ​Booking Pad​ is an end-to-end solution for NDC, ready to be used by any certified IATA agency in the world. Currently providing access to more than 25 NDC-enabled airlines, granting access to their best deals, by avoiding the GDS surcharges and enabling extra revenues, by selling airline ancillaries.
@@ -32,10 +28,10 @@ With an increasing number of airlines charging for bookings made in the GDS chan
 
 
 
-For further media information about Advantage Travel Partnership please contact:
+
+For further media information about AirGateway please contact:
 
 Jorge Diaz
-
 contact@airgateway.com
 
 
