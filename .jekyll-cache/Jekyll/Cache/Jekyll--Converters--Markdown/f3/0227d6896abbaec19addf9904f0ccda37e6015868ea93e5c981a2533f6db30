@@ -1,0 +1,23 @@
+I"<p><a href="http://bookingpad.info">Bookingpad</a> will be officially launched on the next 1st March, but we wanted to share in advance a sneak peek of what it will be our first NDC-ready user-faced product for travel agencies and travel professionals.</p>
+
+<p><img src="/img/bookingpad-screenshot.png" alt="Bookingpad screenshot" /></p>
+
+<p>This solution will allow travel agents to get access to all the NDC contents and features from all the enabled airlines in our aggregation platform, currently 12 APIs and expecting to have between 8-12 new along this year. This makes us the better partner for a long-term NDC strategy. Our focus will always be covering 100% of the NDC functionality provided by the NDC-leading airlines with no regional constraint.</p>
+
+<p>Our Front-end implementation provides:</p>
+
+<ul>
+  <li>Full real-time aggregated multi-airline shopping search, which results in a simplified overview of all the combinations available for a specific O&amp;D and dates.</li>
+  <li>Offer confirmation and reservation data provision, with the possibility of adding shopping-time ancillary services (when provided by the airline) and Special Service Requests (when provided by the airline).</li>
+  <li>Booking including cash or credit card payment.</li>
+  <li>Ticketing including cash or credit card payment.</li>
+  <li>Servicing (cancelation and refunds, changes).</li>
+  <li>Orders management (Multi-airline orders search, status tracking, changes notifications, etc.)</li>
+</ul>
+
+<p>We will be soon launching online demos and screencasts displaying all features and use cases.</p>
+
+<p>Keep tuned for more by signing up in our <a href="https://bookingpad.info/#register-form">Bookingpad newsletter</a>.</p>
+
+<p>Visit the product page here: <a href="http://bookingpad.info">bookingpad.info</a>.</p>
+:ET
