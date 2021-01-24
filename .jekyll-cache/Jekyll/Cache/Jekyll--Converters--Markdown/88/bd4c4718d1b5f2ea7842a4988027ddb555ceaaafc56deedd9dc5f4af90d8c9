@@ -1,0 +1,6 @@
+I"<p><img src="/img/2018-05-02_certificate-of-pci-dss-validation_en.png" alt="PCI-DSS certification" /></p>
+
+<p>We have been recently granted the PCI/DSS certification by the German certification authority <a href="https://www.tuv-sud.com/">TÜV SÜD</a>.</p>
+
+<p>This certification process has been specially challenging for us given the fact that our platform relies on an entirely clusterized infrastructure, that allow us a complete replication in a matter of minutes in a different region or set of regions.</p>
+:ET
