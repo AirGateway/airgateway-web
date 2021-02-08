@@ -5,15 +5,12 @@ airlines:
   - date: 20-Sep-2016
     image: /img/american-airlines.svg
     name: American Airlines
-  - date: 20-Nov-2016
-    image: /img/s7-airlines.svg
-    name: Siberian Airlines
   - date: 01-Feb-2017
     image: /img/emirates.svg
     name: Emirates
   - date: 01-Mar-2017
     image: /img/iberia.svg
-    name: Iberia Líneas Aéreas de España
+    name: Iberia
   - date: 15-Mar-2017
     image: /img/westjet-airlines.svg
     name: WestJet Airlines
