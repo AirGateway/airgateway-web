@@ -18,13 +18,13 @@ products:
     links:
       -
         text: Providers & Capabilities Content Table
-        url: https://dev-guides.airgateway.net/providers/
+        url: https://dev-guides.airgateway.net/airlines_providers.html
       -
-        text: Latest API version Documentation (v1.1)
-        url: https://api.airgateway.net/v1.1/
+        text: Latest API version Swagger Documentation (v1.1)
+        url: https://api.airgateway.net/v1.1/swagger-ui/
       -
         text: AirGateway Developer's Guide
-        url: https://dev-guides.airgateway.net/providers/
+        url: https://dev-guides.airgateway.net/
       - 
         text: Schedule a call 
         url: https://calendly.com/airgateway

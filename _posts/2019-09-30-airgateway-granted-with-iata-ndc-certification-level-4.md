@@ -25,4 +25,4 @@ We will continue growing our platform capabilities as well as the number of conn
 
 [See IATA NDC Registry entry](https://www.iata.org/whatwedo/airline-distribution/ndc/Pages/company.aspx?c=106)
 
-[See our list of connected Airlines and capabilities](https://dev-guides.airgateway.net/providers/)
+[See our list of connected Airlines and capabilities](https://dev-guides.airgateway.net/airlines_providers.html)
