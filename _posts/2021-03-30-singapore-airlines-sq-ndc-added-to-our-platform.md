@@ -1,5 +1,5 @@
 ---
-title: Singapore Airlines (SQ) NDC added to our platform
+title: Singapore Airlines NDC added to our platform
 date: '2021-03-30'
 post-date: Mar 21
 author: admin
