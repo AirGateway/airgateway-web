@@ -20,7 +20,7 @@
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:title" content="AirGateway">
   <meta property="og:description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.head-title }}{% endif %}">
-  <meta property="og:image" itemprop="image" content="{{ "/img/airgateway-og-image-v2.png" | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:image" itemprop="image" content="{{ post.img-covers | prepend: site.baseurl | prepend: site.url }}">
 
   <meta name="twitter:card" content="photo">
   <meta name="twitter:site" content="@airgateway">
