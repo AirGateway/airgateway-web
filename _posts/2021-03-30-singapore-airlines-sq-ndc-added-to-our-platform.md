@@ -4,6 +4,9 @@ date: '2021-03-30'
 post-date: Mar 21
 author: admin
 published: true
+img-cover: /img/banner-singapore-airlines.png
+img-cover_2x: /img/banner-singapore-airlines.png
+img: /img/banner-singapore-airlines.png
 category: airlines
 layout: post
 entry: >-
