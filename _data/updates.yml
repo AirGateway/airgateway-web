@@ -35,14 +35,14 @@ updates:
       the available Airlines in our NDC platform for travel agents to connect
       to.
   - date: Sep 2017
-    heading: AA & EK added to our NDC aggregation platform
-    text: American Airlines & Emirates are now available on our NDC platform.
+    heading: AA NDC content added to our NDC aggregation platform
+    text: American Airlines is now available on our NDC platform.
   - date: May 2018
-    heading: PCI DSS Certified by TüV Süd
+    heading: PCI DSS Certified by TüV
     link: /blog/grants/pci-dss-certified-by-t%C3%BCv-s%C3%BCd.html
     text: >-
       We have been recently granted the PCI/DSS certification by the German
-      certification authority TÜV SÜD.
+      certification authority TÜV.
   - date: Nov 2018
     heading: AirGateway backed by Germany's largest VC High-Tech Gründerfonds
     link: >-
@@ -60,7 +60,12 @@ updates:
       AirGateway launches Bookingpad, its agent desktop solution for NDC
       content.
   - date: Sep 19
-    heading: AirGateway gets its first TMC agreement in UK
+    heading: AirGateway gets its first TMC agreement in the UK
     link: >-
       https://airgateway.com/blog/partnerships/airgateway-gmbh-and-fello-travel-ltd-announce-ndc-partnership.html
     text: ''
+  - date: Jan 2019
+    heading: LHG content added to our NDC aggregation platform
+  - date: Jan 2020
+    heading: SQ added to our NDC aggregation platform
+  - heading: UA content added to our NDC aggregation platform
