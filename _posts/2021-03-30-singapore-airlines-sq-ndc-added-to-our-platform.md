@@ -13,10 +13,10 @@ entry: >-
 ---
 We are happy to announce that Singapore Airlines (SQ) NDC content has been recently added to our platform once the certification process has been completed.
 
-United is our second NDC-enabled US carrier distributing its content through our direct-distribution platform.
+Singapore Airlines is our first NDC-enabled carrier in APAC, distributing its content through our direct-distribution platform.
 
 We constantly work on bringing the most and best content to our platform in order to achieve our purpose of being the best NDC and direct-connect aggregation platform in the industry.
 
-Agencies that wish to get access to UA's NDC content via AirGateway can start the application process on United's NDC Onboarding form, linked here.
+Agencies that wish to get access to Singapore's NDC content via AirGateway can start the application process on the [Krisconnect Agent 360 NDC Onboarding form](https://agent360.singaporeair.com/en_UK/us/accountRegistration).
 
- [http://united.com/ndc](http://united.com/ndc).
+
