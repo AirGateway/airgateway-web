@@ -20,4 +20,6 @@ United is our second NDC-enabled US carrier distributing its content through our
 
 We constantly work on bringing the most and best content to our platform in order to achieve our purpose of being the best NDC and direct-connect aggregation platform in the industry.
 
-Agencies that wish to get access UA's NDC content via AirGateway can start the application process on [United's NDC Onboarding form](http://united.com/ndc).
+Agencies that wish to get access to UA's NDC content via AirGateway can start the application process on United's NDC Onboarding form, linked here.
+
+ [http://united.com/ndc](http://united.com/ndc).
