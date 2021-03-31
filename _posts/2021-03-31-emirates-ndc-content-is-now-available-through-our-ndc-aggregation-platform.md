@@ -3,7 +3,7 @@ title: Emirates NDC content is now available through our NDC Aggregation platfor
 date: '2021-04-04'
 post-date: Apr 2021
 author: admin
-published: true
+published: false
 img-cover: /img/banner-emirates.png
 img-cover_2x: /img/banner-emirates.png
 img: /img/banner-emirates.png
