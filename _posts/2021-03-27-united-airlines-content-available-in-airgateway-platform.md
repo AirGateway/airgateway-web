@@ -1,7 +1,7 @@
 ---
 title: United Airlines content available in AirGateway platform
-date: '2021-01-30'
-post-date: Jan 2021
+date: '2021-02-20'
+post-date: Feb 2021
 author: admin
 published: true
 img-cover: /img/banner-united-airlines.png
