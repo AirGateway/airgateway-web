@@ -37,7 +37,6 @@
     display: block;
     margin-bottom: 15px;
     text-align: center;
-    height: 200px;
 
     .helper {
       display: inline-block;
@@ -45,9 +44,8 @@
       vertical-align: middle;
     }
     img{
-      max-width: calc(100% - 5px);
       vertical-align: middle;
-      max-height: 200px;
+      width: 100%;
     }
   }
   &__title{
