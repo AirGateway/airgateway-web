@@ -14,7 +14,7 @@ entry: >-
   of Emirates (EK) to the growing number of airlines that are supported by our
   travel distribution platform.
 ---
-[AirGateway](http://airgateway.com) is happy to announce the addition of the NDC content and offerings of Emirates (EK) to the growing number of airlines that are supported by our travel distribution platform. With this addition our partners will be able to book, service orders (change, cancel, adjust, handle disruptions), and purchase the full array of ancillaries provided by this airline - side by side with the over 20 airlines we already support.
+[AirGateway](http://airgateway.com) is happy to announce the addition of the NDC content and offerings of Emirates (EK) to the growing number of airlines that are supported by our travel distribution platform. With this addition our partners will be able to shop, book, service (cancel & refunds, changes, and handle disruptions), selling the full array of ancillaries provided by this airline - side by side with the over 15+ NDC airlines we already support in our platform.
 
 AirGateway constantly works on bringing the most and best content to our platform while making NDC more accessible and usable to the travel industry using our ability to interact with legacy content providers (GDSs), mid/back-office systems, profile management tools, travel mobile app providers, etc.
 
