@@ -4,6 +4,9 @@ date: '2021-04-22'
 post-date: Apr 22
 author: admin
 published: true
+img-cover: /img/banner-emirates.png
+img-cover_2x: /img/banner-emirates.png
+img: /img/banner-emirates.png
 category: airlines
 layout: post
 entry: >-
