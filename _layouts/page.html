@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+{% include shared/head.html %}
+
+<body id="page-top">
+
+  {% include shared/header.html %}
+  {% include home/jumbotron.html %}
+  <main class="site-content site-content--stuck">
+    {{ content }}
+  </main>
+  {% include shared/footer.html %}
+
+  <!-- Large modal -->
+  <div id="modal-body" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <h1>Loading content...</h1>
+      </div>
+    </div>
+  </div>
+
+  {% include js.html %}
+  {% include trackers.html %}
+
+  <!-- SmallChat support -->
+  <script src="https://embed.small.chat/T0ZM936LUGA4L388SE.js" async></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+
+  <!-- Fastbase Tracker -->
+  <script>
+    (function () {
+      var e, i = ["https://fastbase.com/fscript.js", "xBijE4hSfM", "script"], a = document, s = a.createElement(i[2]);
+      s.async = !0, s.id = i[1], s.src = i[0], (e = a.getElementsByTagName(i[2])[0]).parentNode.insertBefore(s, e)
+    })();
+  </script>
+
+</body>
+
+</html>
