@@ -141,3 +141,5 @@ social:
 collections:
   airlines:
     output: false
+  providers:
+    output: false
