@@ -6,3 +6,5 @@ gem 'bundler', '1.16.5'
 gem 'jekyll'
 gem 'jekyll-admin'
 gem 'kramdown-parser-gfm'
+
+gem 'listen', '3.5.0'
