@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'bundler', '1.16.5'
+gem 'bundler', '2.0.1'
 
 # Gemas del core
 gem 'jekyll'
