@@ -1,7 +1,6 @@
 customers:
-  - type: Onboarding Agencies
-    count: 32
-  - type: Onboarded Agencies
-    count: 177
-  - type: Agent Accounts
-    count: 1863
+  - count: 32
+  - count: 177
+  - count: 1863
+  - count: '48'
+    ctype: Super Agent
