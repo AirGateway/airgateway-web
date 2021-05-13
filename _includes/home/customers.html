@@ -7,30 +7,17 @@
 
     <div class="customers">
       <div class="customers-stats">
+        {% for customer in site.data.stats.customers %}
         <div class="customers-stats-item">
           <div class="customers-stats-count">
-            32
+            {{ customer.count }}
           </div>
           <div class="customers-stats-label">
-            Onboarding Agencies
+            {{ customer.type }}
           </div>
         </div>
-        <div class="customers-stats-item">
-          <div class="customers-stats-count">
-            177
-          </div>
-          <div class="customers-stats-label">
-            Onboarded Agencies
-          </div>
-        </div>
-        <div class="customers-stats-item"><div class="customers-stats-count">
-          1863
-        </div>
-        <div class="customers-stats-label">
-          Agent Accounts
-        </div></div>
+        {% endfor %}
       </div>
     </div>
   </div>
-
 </section>

@@ -1,0 +1,7 @@
+customers:
+  - type: Onboarding Agencies
+    count: 32
+  - type: Onboarded Agencies
+    count: 177
+  - type: Agent Accounts
+    count: 1863

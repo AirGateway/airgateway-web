@@ -56,6 +56,18 @@ collections:
               - {label: "Category", name: "category", widget: "string"}
               - {label: "Logo", name: "logo", widget: "image"}
               - {label: "Link", name: "link", widget: "string"}
+      - label: Customers
+        name: customers
+        file: _data/stats.yml
+        description: Customers
+        fields:
+          - name: customers
+            label: Customers
+            widget: list
+            create: true
+            fields:
+              - {label: "Customer Type", name: "ctype", widget: "string"}
+              - {label: "Number of Customers", name: "count", widget: "number", value_type: "int"}
       - label: Updates
         name: updates
         file: _data/updates.yml

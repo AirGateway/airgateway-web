@@ -54,3 +54,5 @@ collections:
     output: false
   providers:
     output: false
+  customers:
+    output: false
