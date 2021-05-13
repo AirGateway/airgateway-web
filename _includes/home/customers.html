@@ -6,24 +6,29 @@
     </hgroup>
 
     <div class="customers">
-      <div class="siema">
-        {% for customer in site.data.customers.customers %}
-        <div class="customersItem">
-          <a href="{{ customer.link }}">
-          <div class="customersLogo">
-            {% if customer.link != '' %}
-            <a href="{{ customer.link }}" class="read-more customersLink"><img src="/img/customers/{{ customer.logo }}"
-                alt="{{ customer.name }} logo" width="250" /></a>
-            {% endif %}
+      <div class="customers-stats">
+        <div class="customers-stats-item">
+          <div class="customers-stats-count">
+            64
           </div>
-          <h3>
-            {% if customer.link != '' %}
-            <a href="{{ customer.link }}" class="read-more customersLink">{{ customer.name }}</a> <span class="ccode">({{ customer.countrycode }})</span>
-            {% endif %}
-          </h3>
-          </a>
+          <div class="customers-stats-label">
+            Onboarding Agencies
+          </div>
         </div>
-        {% endfor %}
+        <div class="customers-stats-item">
+          <div class="customers-stats-count">
+            32
+          </div>
+          <div class="customers-stats-label">
+            Onboarded Agencies
+          </div>
+        </div>
+        <div class="customers-stats-item"><div class="customers-stats-count">
+          128
+        </div>
+        <div class="customers-stats-label">
+          Agent Accounts
+        </div></div>
       </div>
     </div>
   </div>

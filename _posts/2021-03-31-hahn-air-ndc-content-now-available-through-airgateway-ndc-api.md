@@ -1,5 +1,5 @@
 ---
-title: Hahn air NDC Content now available through AirGateway NDC API
+title: Hahn air NDC Content now available through NDC platform
 date: '2021-01-30'
 post-date: Jan 2021
 author: admin

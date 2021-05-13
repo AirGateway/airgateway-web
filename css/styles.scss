@@ -3,6 +3,9 @@
 # only Main files contain this front matter, not partials.
 ---
 
+$red: #c00005;
+$redDark: #740003;
+
 // VARIABLES
 // ----------------------------
 @import "variables";
@@ -97,6 +100,7 @@
 @import "sections/footer";
 @import "sections/header";
 @import "sections/products";
+@import "sections/airlines_providers";
 
 .partners {
   display: block;

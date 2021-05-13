@@ -6,6 +6,7 @@ _site
 .AppleDouble
 .LSOverride
 .sass-cache
+.jekyll-cache
 
 # Icon must ends with two \r.
 Icon
