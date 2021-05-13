@@ -66,7 +66,7 @@ collections:
             widget: list
             create: true
             fields:
-              - {label: "Customer Type", name: "ctype", widget: "string"}
+              - {label: "Customer Type", name: "name", widget: "string"}
               - {label: "Number of Customers", name: "count", widget: "number", value_type: "int"}
       - label: Updates
         name: updates
