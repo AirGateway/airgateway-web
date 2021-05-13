@@ -1,5 +1,5 @@
 #customers {
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 .customers-list {
   margin-bottom: 0;
@@ -12,6 +12,46 @@
     &:hover,
     &:focus {
       opacity: 1;
+    }
+  }
+}
+
+.customers {
+  &-stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+
+    @media #{$desktop-up} {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 4rem;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      @media #{$desktop-up} {
+        border-right: 1px solid #eee;
+      }
+    }
+
+    &-count {
+      color: #c00005;
+      font-size: 7.2rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    &-label {
+      color: #25252f;
+      font-size: 2rem;
+      font-weight: 700;
     }
   }
 }
