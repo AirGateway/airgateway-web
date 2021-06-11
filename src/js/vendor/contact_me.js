@@ -35,7 +35,7 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                    //window.location.href = '/contact-info';
+                    window.location.href = '/contact-info';
                   },
                   error: function() {
                     // Fail message
